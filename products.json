@@ -1,125 +1,156 @@
 [
-{
-  "name": "Dr. Oetker High Protein Grießpudding",
-  "brand": "Dr. Oetker",
-  "price": 1.99,
-  "supermarket": "Rewe",
-  "calories": 79,
-  "protein": 7.5,
-  "category": "Snacks",
-  "imagePath": "assets/images/dr-oetker-protein-griess.png",
-  "tags": ["High Protein", "Vegetarisch"]
-},
-{
-  "name": "Vly Erbsenproteindrink",
-  "brand": "Vly",
-  "price": 1.99,
-  "supermarket": "Rewe",
-  "calories": 37,
-  "protein": 2.4,
-  "category": "Getränke",
-  "imagePath": "assets/images/vly-protein-drink.png",
-  "tags": ["Vegan", "Low Fat"]
-},
-{
-  "name": "Rügenwalder Mühlen Schnitzel Vegan",
-  "brand": "Rügenwalder Mühle",
-  "price": 2.49,
-  "supermarket": "Rewe",
-  "calories": 203,
-  "protein": 14.0,
-  "category": "Fleischalternativen",
-  "imagePath": "assets/images/ruegenwalder-schnitzel.png",
-  "tags": ["Vegan", "High Protein"]
-},
-{
-  "name": "Krone Räucherlachs",
-  "brand": "Krone",
-  "price": 4.29,
-  "supermarket": "Rewe",
-  "calories": 177,
-  "protein": 20.5,
-  "category": "Fisch",
-  "imagePath": "assets/images/krone-raeucherlachs.png",
-  "tags": ["High Protein", "Low Carb"]
-},
-{
-  "name": "Iglo Schlemmerfilet Bordelaise",
-  "brand": "Iglo",
-  "price": 2.69,
-  "supermarket": "Rewe",
-  "calories": 150,
-  "protein": 13.0,
-  "category": "Tiefkühl",
-  "imagePath": "assets/images/iglo-schlemmerfilet.png",
-  "tags": ["High Protein"]
-},
-{
-  "name": "Iglo Filegro Ofen-Backfisch",
-  "brand": "Iglo",
-  "price": 2.69,
-  "supermarket": "Rewe",
-  "calories": 247,
-  "protein": 11.0,
-  "category": "Tiefkühl",
-  "imagePath": "assets/images/iglo-ofen-backfisch.png",
-  "tags": ["High Protein"]
-},
-{
-  "name": "Rügenwalder Veganes Cordon Bleu",
-  "brand": "Rügenwalder Mühle",
-  "price": 2.49,
-  "supermarket": "Rewe",
-  "calories": 209,
-  "protein": 12.0,
-  "category": "Fleischalternativen",
-  "imagePath": "assets/images/ruegenwalder-cordonbleu.png",
-  "tags": ["Vegan", "High Protein"]
-},
-{
-  "name": "Galbani Mozzarella",
-  "brand": "Galbani",
-  "price": 0.59,
-  "supermarket": "Rewe",
-  "calories": 238,
-  "protein": 17.0,
-  "category": "Milchprodukte",
-  "imagePath": "assets/images/galbani-mozzarella.png",
-  "tags": ["Vegetarisch", "High Protein"]
-},
-{
-  "name": "Heidelbeeren 125g",
-  "brand": "",
-  "price": 1.39,
-  "supermarket": "Rewe",
-  "calories": 46,
-  "protein": 0.5,
-  "category": "Obst & Gemüse",
-  "imagePath": "assets/images/rewe-heidelbeeren.png",
-  "tags": ["Vegan", "Vegetarisch", "Low Calories", "Low Calories"]
-},
-{
-  "name": "Prosciutto Cotto",
-  "brand": "Ponnath",
-  "price": 1.99,
-  "supermarket": "Rewe",
-  "calories": 108,
-  "protein": 20.0,
-  "category": "Fleisch",
-  "imagePath": "assets/images/rewe-ponnath-delikatesse.png",
-  "tags": ["High Protein"]
-},
-{
-  "name": "Geflügel Rostbratwurst",
-  "brand": "Rewe Bio",
-  "price": 2.79,
-  "supermarket": "Rewe",
-  "calories": 235,
-  "protein": 15.0,
-  "category": "Fleisch",
-  "imagePath": "assets/images/rewe-rostbratwurst.png",
-  "tags": ["High Protein"]
-},
+  {
+    "name": "Dr. Oetker High Protein Grießpudding",
+    "brand": "Dr. Oetker",
+    "price": 1.99,
+    "supermarket": "Rewe",
+    "calories": 79,
+    "protein": 7.5,
+    "category": "Snacks",
+    "tags": [
+      "High Protein",
+      "Vegetarisch"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/dr-oetker-protein-griess.png"
+  },
+  {
+    "name": "Vly Erbsenproteindrink",
+    "brand": "Vly",
+    "price": 1.99,
+    "supermarket": "Rewe",
+    "calories": 37,
+    "protein": 2.4,
+    "category": "Getränke",
+    "tags": [
+      "Vegan",
+      "Low Fat"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/vly-protein-drink.png"
+  },
+  {
+    "name": "Rügenwalder Mühlen Schnitzel Vegan",
+    "brand": "Rügenwalder Mühle",
+    "price": 2.49,
+    "supermarket": "Rewe",
+    "calories": 203,
+    "protein": 14.0,
+    "category": "Fleischalternativen",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/ruegenwalder-schnitzel.png"
+  },
+  {
+    "name": "Krone Räucherlachs",
+    "brand": "Krone",
+    "price": 4.29,
+    "supermarket": "Rewe",
+    "calories": 177,
+    "protein": 20.5,
+    "category": "Fisch",
+    "tags": [
+      "High Protein",
+      "Low Carb"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/krone-raeucherlachs.png"
+  },
+  {
+    "name": "Iglo Schlemmerfilet Bordelaise",
+    "brand": "Iglo",
+    "price": 2.69,
+    "supermarket": "Rewe",
+    "calories": 150,
+    "protein": 13.0,
+    "category": "Tiefkühl",
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/iglo-schlemmerfilet.png"
+  },
+  {
+    "name": "Iglo Filegro Ofen-Backfisch",
+    "brand": "Iglo",
+    "price": 2.69,
+    "supermarket": "Rewe",
+    "calories": 247,
+    "protein": 11.0,
+    "category": "Tiefkühl",
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/iglo-ofen-backfisch.png"
+  },
+  {
+    "name": "Rügenwalder Veganes Cordon Bleu",
+    "brand": "Rügenwalder Mühle",
+    "price": 2.49,
+    "supermarket": "Rewe",
+    "calories": 209,
+    "protein": 12.0,
+    "category": "Fleischalternativen",
+    "tags": [
+      "Vegan",
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/ruegenwalder-cordonbleu.png"
+  },
+  {
+    "name": "Galbani Mozzarella",
+    "brand": "Galbani",
+    "price": 0.59,
+    "supermarket": "Rewe",
+    "calories": 238,
+    "protein": 17.0,
+    "category": "Milchprodukte",
+    "tags": [
+      "Vegetarisch",
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/galbani-mozzarella.png"
+  },
+  {
+    "name": "Heidelbeeren 125g",
+    "brand": "",
+    "price": 1.39,
+    "supermarket": "Rewe",
+    "calories": 46,
+    "protein": 0.5,
+    "category": "Obst & Gemüse",
+    "tags": [
+      "Vegan",
+      "Vegetarisch",
+      "Low Calories",
+      "Low Calories"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/rewe-heidelbeeren.png"
+  },
+  {
+    "name": "Prosciutto Cotto",
+    "brand": "Ponnath",
+    "price": 1.99,
+    "supermarket": "Rewe",
+    "calories": 108,
+    "protein": 20.0,
+    "category": "Fleisch",
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/rewe-ponnath-delikatesse.png"
+  },
+  {
+    "name": "Geflügel Rostbratwurst",
+    "brand": "Rewe Bio",
+    "price": 2.79,
+    "supermarket": "Rewe",
+    "calories": 235,
+    "protein": 15.0,
+    "category": "Fleisch",
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/rewe-rostbratwurst.png"
+  },
   {
     "name": "Süßkartoffel 1kg",
     "brand": "",
@@ -128,8 +159,11 @@
     "calories": 86,
     "protein": 1.6,
     "category": "Obst & Gemüse",
-    "imagePath": "assets/images/lidl-suesskartoffeln.png",
-    "tags": ["Vegan", "Low Fat"]
+    "tags": [
+      "Vegan",
+      "Low Fat"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-suesskartoffeln.png"
   },
   {
     "name": "Milbona Joghurt mild 1,5% Fett",
@@ -139,8 +173,11 @@
     "calories": 61,
     "protein": 5.1,
     "category": "Milchprodukte",
-    "imagePath": "assets/images/lidl-milbona-joghurt.png",
-    "tags": ["Vegetarisch", "Low Fat"]
+    "tags": [
+      "Vegetarisch",
+      "Low Fat"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-milbona-joghurt.png"
   },
   {
     "name": "Vemondo Mandelmilch ungesüßt",
@@ -150,8 +187,11 @@
     "calories": 14,
     "protein": 0.5,
     "category": "Pflanzendrinks",
-    "imagePath": "assets/images/lidl-vemondo-mandelmilch.png",
-    "tags": ["Vegan", "Low Calories"]
+    "tags": [
+      "Vegan",
+      "Low Calories"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-vemondo-mandelmilch.png"
   },
   {
     "name": "Tasty Food in a Bottle (versch. Sorten)",
@@ -161,8 +201,10 @@
     "calories": 100,
     "protein": 7.0,
     "category": "Proteinshakes",
-    "imagePath": "assets/images/lidl-tasty-drink.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-tasty-drink.png"
   },
   {
     "name": "Fettarmer Kefir",
@@ -172,8 +214,11 @@
     "calories": 48,
     "protein": 3.4,
     "category": "Milchprodukte",
-    "imagePath": "assets/images/lidl-milbona-kefir.png",
-    "tags": ["Vegetarisch", "Low Fat"]
+    "tags": [
+      "Vegetarisch",
+      "Low Fat"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-milbona-kefir.png"
   },
   {
     "name": "Hähnchen-Minutenschnitzel 1kg",
@@ -183,8 +228,10 @@
     "calories": 158,
     "protein": 20.5,
     "category": "Fleisch",
-    "imagePath": "assets/images/lidl-haehnchen-minutenschnitzel.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-haehnchen-minutenschnitzel.png"
   },
   {
     "name": "Rindersteak aus Südamerika 300g",
@@ -194,8 +241,10 @@
     "calories": 170,
     "protein": 19.0,
     "category": "Fleisch",
-    "imagePath": "assets/images/lidl-rindersteak.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-rindersteak.png"
   },
   {
     "name": "Metzgerfrisch Bio Rindergulasch 400g",
@@ -205,8 +254,10 @@
     "calories": 120,
     "protein": 21.0,
     "category": "Fleisch",
-    "imagePath": "assets/images/lidl-rindergulasch.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-rindergulasch.png"
   },
   {
     "name": "Norwegische Lachsseite 1kg",
@@ -216,10 +267,12 @@
     "calories": 197,
     "protein": 20.3,
     "category": "Fisch",
-    "imagePath": "assets/images/lidl-lachsseite.png",
-    "tags": ["High Protein", "Low Carb"]
+    "tags": [
+      "High Protein",
+      "Low Carb"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-lachsseite.png"
   },
-
   {
     "name": "Iglo Schlemmerfilet",
     "brand": "Iglo",
@@ -228,8 +281,10 @@
     "calories": 150,
     "protein": 13.0,
     "category": "Tiefkühl",
-    "imagePath": "assets/images/iglo-schlemmerfilet.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/iglo-schlemmerfilet.png"
   },
   {
     "name": "Golden Sun Basmati Reis",
@@ -239,8 +294,8 @@
     "calories": 353,
     "protein": 8.2,
     "category": "Beilagen",
-    "imagePath": "assets/images/lidl-golden-sun-basmati-reis.png",
-    "tags": []
+    "tags": [],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-golden-sun-basmati-reis.png"
   },
   {
     "name": "Herta Schinken XXL 140g",
@@ -250,8 +305,10 @@
     "calories": 112,
     "protein": 21,
     "category": "Fleisch",
-    "imagePath": "assets/images/lidl-herta-schinken-xxl.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-herta-schinken-xxl.png"
   },
   {
     "name": "Nautica Norwegischer Räucherlachs XXL",
@@ -261,8 +318,10 @@
     "calories": 167,
     "protein": 20.7,
     "category": "Fisch",
-    "imagePath": "assets/images/lidl-nautica-raeucherlachs.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-nautica-raeucherlachs.png"
   },
   {
     "name": "Deluxe White Tiger Garnelen 720g",
@@ -272,10 +331,12 @@
     "calories": 66,
     "protein": 15,
     "category": "Fisch",
-    "imagePath": "assets/images/lidl-white-tiger-garnelen.png",
-    "tags": ["High Protein", "Low Fat"]
+    "tags": [
+      "High Protein",
+      "Low Fat"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-white-tiger-garnelen.png"
   },
-
   {
     "name": "Hähnchen-Minischnitte Cornflakes-Panade 540g",
     "brand": "Metzgerfrisch",
@@ -284,10 +345,10 @@
     "calories": 218,
     "protein": 14.8,
     "category": "Fleisch",
-    "imagePath": "assets/images/lidl-haehnchen-minischnitte.png",
     "tags": [
       "High Protein"
-    ]
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-haehnchen-minischnitte.png"
   },
   {
     "name": "Frische Schweinenackensteaks 800g",
@@ -297,8 +358,8 @@
     "calories": 193,
     "protein": 19.0,
     "category": "Fleisch",
-    "imagePath": "assets/images/lidl-schweinenackensteaks.png",
-    "tags": []
+    "tags": [],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-schweinenackensteaks.png"
   },
   {
     "name": "Metzgerfrisch Frische Hamburger vom Rind 800g",
@@ -308,10 +369,10 @@
     "calories": 234,
     "protein": 18.0,
     "category": "Fleisch",
-    "imagePath": "assets/images/lidl-hamburger.png",
     "tags": [
       "High Protein"
-    ]
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-hamburger.png"
   },
   {
     "name": "Metzgerfrisch Rinderkeulensteaks 800g",
@@ -321,10 +382,10 @@
     "calories": 165,
     "protein": 20.0,
     "category": "Fleisch",
-    "imagePath": "assets/images/lidl-rinderkeulensteaks.png",
     "tags": [
       "High Protein"
-    ]
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-rinderkeulensteaks.png"
   },
   {
     "name": "3 Glocken Genuss Pur Nudeln 500g",
@@ -334,8 +395,8 @@
     "calories": 352,
     "protein": 12.0,
     "category": "Beilagen",
-    "imagePath": "assets/images/lidl-3glocken-nudeln.png",
-    "tags": []
+    "tags": [],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-3glocken-nudeln.png"
   },
   {
     "name": "Grillmeister Schweinebauchscheiben 700g",
@@ -345,10 +406,9 @@
     "calories": 336,
     "protein": 15.5,
     "category": "Fleisch",
-    "imagePath": "assets/images/lidl-schweinebauchscheiben.png",
-    "tags": []
+    "tags": [],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-schweinebauchscheiben.png"
   },
-
   {
     "name": "Bananen 1kg",
     "brand": "ALDI",
@@ -357,8 +417,12 @@
     "calories": 89,
     "protein": 1.1,
     "category": "Obst & Gemüse",
-    "imagePath": "assets/images/aldi-bananen.png",
-    "tags": ["Vegan", "Vegetarisch", "Low Fat"]
+    "tags": [
+      "Vegan",
+      "Vegetarisch",
+      "Low Fat"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-bananen.png"
   },
   {
     "name": "Räucherlachs XXL",
@@ -368,8 +432,10 @@
     "calories": 196,
     "protein": 19,
     "category": "Fisch",
-    "imagePath": "assets/images/aldi-raeucherlachs.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-raeucherlachs.png"
   },
   {
     "name": "Cherrydatteltomaten XXL 1kg",
@@ -379,8 +445,11 @@
     "calories": 20,
     "protein": 1,
     "category": "Obst & Gemüse",
-    "imagePath": "assets/images/aldi-cherrytomaten.png",
-    "tags": ["Vegan", "Vegetarisch"]
+    "tags": [
+      "Vegan",
+      "Vegetarisch"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-cherrytomaten.png"
   },
   {
     "name": "Avocado",
@@ -390,8 +459,11 @@
     "calories": 160,
     "protein": 2,
     "category": "Obst & Gemüse",
-    "imagePath": "assets/images/aldi-avocado.png",
-    "tags": ["Vegan", "Vegetarisch"]
+    "tags": [
+      "Vegan",
+      "Vegetarisch"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-avocado.png"
   },
   {
     "name": "Kulturheidelbeeren 500g",
@@ -401,8 +473,13 @@
     "calories": 57,
     "protein": 0.7,
     "category": "Obst & Gemüse",
-    "imagePath": "assets/images/aldi-heidelbeeren.png",
-    "tags": ["Vegan", "Vegetarisch", "Low Fat", "Low Calories"]
+    "tags": [
+      "Vegan",
+      "Vegetarisch",
+      "Low Fat",
+      "Low Calories"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-heidelbeeren.png"
   },
   {
     "name": "Erdbeeren 500g",
@@ -412,8 +489,13 @@
     "calories": 32,
     "protein": 0.8,
     "category": "Obst & Gemüse",
-    "imagePath": "assets/images/aldi-erdbeeren.png",
-    "tags": ["Vegan", "Vegetarisch", "Low Fat", "Low Calories"]
+    "tags": [
+      "Vegan",
+      "Vegetarisch",
+      "Low Fat",
+      "Low Calories"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-erdbeeren.png"
   },
   {
     "name": "Speisekartoffeln 5kg",
@@ -423,8 +505,11 @@
     "calories": 77,
     "protein": 2,
     "category": "Obst & Gemüse",
-    "imagePath": "assets/images/aldi-speisekartoffeln.png",
-    "tags": ["Vegan", "Vegetarisch"]
+    "tags": [
+      "Vegan",
+      "Vegetarisch"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-speisekartoffeln.png"
   },
   {
     "name": "Schweinefilet 500g",
@@ -434,8 +519,10 @@
     "calories": 110,
     "protein": 21,
     "category": "Fleisch",
-    "imagePath": "assets/images/aldi-schweinefilet.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-schweinefilet.png"
   },
   {
     "name": "Gyros-Geschnetzeltes XXL 800g",
@@ -445,8 +532,10 @@
     "calories": 145,
     "protein": 18,
     "category": "Fleisch",
-    "imagePath": "assets/images/aldi-gyros.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-gyros.png"
   },
   {
     "name": "BBQ Nackensteaks 600g",
@@ -456,8 +545,10 @@
     "calories": 240,
     "protein": 20,
     "category": "Fleisch",
-    "imagePath": "assets/images/aldi-nackensteaks.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-nackensteaks.png"
   },
   {
     "name": "Hähnchen-Innenfilets 400g",
@@ -467,8 +558,11 @@
     "calories": 106,
     "protein": 23,
     "category": "Fleisch",
-    "imagePath": "assets/images/aldi-haehnchen-innenfilets.png",
-    "tags": ["High Protein", "Low Fat"]
+    "tags": [
+      "High Protein",
+      "Low Fat"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-haehnchen-innenfilets.png"
   },
   {
     "name": "Lammfilets XXL 430g",
@@ -478,8 +572,10 @@
     "calories": 160,
     "protein": 20,
     "category": "Fleisch",
-    "imagePath": "assets/images/aldi-lammfilets.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-lammfilets.png"
   },
   {
     "name": "Hackfleisch gemischt XXL 800g",
@@ -489,8 +585,10 @@
     "calories": 240,
     "protein": 18,
     "category": "Fleisch",
-    "imagePath": "assets/images/aldi-hackfleisch.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-hackfleisch.png"
   },
   {
     "name": "Lachsfiletseite 1000g",
@@ -500,8 +598,10 @@
     "calories": 208,
     "protein": 20,
     "category": "Fisch",
-    "imagePath": "assets/images/aldi-lachsfiletseite.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-lachsfiletseite.png"
   },
   {
     "name": "Hähnchenschenkel mit Rückenstück XXL 2kg",
@@ -511,8 +611,10 @@
     "calories": 185,
     "protein": 20,
     "category": "Fleisch",
-    "imagePath": "assets/images/aldi-haehnchenschenkel.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-haehnchenschenkel.png"
   },
   {
     "name": "McCain Golden Longs 750g",
@@ -522,8 +624,8 @@
     "calories": 280,
     "protein": 3,
     "category": "Tiefkühl",
-    "imagePath": "assets/images/aldi-mccain.png",
-    "tags": []
+    "tags": [],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-mccain.png"
   },
   {
     "name": "Iglo Backfisch/Fischstäbchen 450g",
@@ -533,8 +635,10 @@
     "calories": 230,
     "protein": 12,
     "category": "Tiefkühl",
-    "imagePath": "assets/images/aldi-iglo-fischstaebchen.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-iglo-fischstaebchen.png"
   },
   {
     "name": "MYVAY The Wonder Grill-/Flammenspieße",
@@ -544,8 +648,12 @@
     "calories": 213,
     "protein": 17.0,
     "category": "Fleischalternativen",
-    "imagePath": "assets/images/aldi-myvay-spiesse.png",
-    "tags": ["High Protein", "Vegan", "Vegetarisch"]
+    "tags": [
+      "High Protein",
+      "Vegan",
+      "Vegetarisch"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-myvay-spiesse.png"
   },
   {
     "name": "BBQ Hähnchensteaks",
@@ -555,8 +663,10 @@
     "calories": 127,
     "protein": 20.0,
     "category": "Fleisch",
-    "imagePath": "assets/images/aldi-bbq-haehnchensteaks.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-bbq-haehnchensteaks.png"
   },
   {
     "name": "Schinkengulasch XXL 800g",
@@ -566,8 +676,10 @@
     "calories": 120,
     "protein": 21.0,
     "category": "Fleisch",
-    "imagePath": "assets/images/aldi-schinkengulasch.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-schinkengulasch.png"
   },
   {
     "name": "Chicken Nuggets XXL 800g",
@@ -577,8 +689,10 @@
     "calories": 162,
     "protein": 15.0,
     "category": "Tiefkühl",
-    "imagePath": "assets/images/aldi-chicken-nuggets.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-chicken-nuggets.png"
   },
   {
     "name": "BBQ Hähnchen Ministeaks XXL 800g",
@@ -588,8 +702,10 @@
     "calories": 110,
     "protein": 21.0,
     "category": "Fleisch",
-    "imagePath": "assets/images/aldi-ministeaks.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-ministeaks.png"
   },
   {
     "name": "Minischnitzel XXL 800g",
@@ -599,8 +715,10 @@
     "calories": 152,
     "protein": 17.0,
     "category": "Fleisch",
-    "imagePath": "assets/images/aldi-minischnitzel.png",
-    "tags": ["High Protein"]
+    "tags": [
+      "High Protein"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-minischnitzel.png"
   },
   {
     "name": "Rama Cremefine 250ml",
@@ -610,8 +728,11 @@
     "calories": 90,
     "protein": 1.0,
     "category": "Milchprodukte",
-    "imagePath": "assets/images/aldi-cremefine.png",
-    "tags": ["Low Fat", "Vegetarisch"]
+    "tags": [
+      "Low Fat",
+      "Vegetarisch"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-cremefine.png"
   },
   {
     "name": "Cucina Nobile Mozzarella 125g",
@@ -621,8 +742,11 @@
     "calories": 157,
     "protein": 19.0,
     "category": "Milchprodukte",
-    "imagePath": "assets/images/aldi-mozzarella.png",
-    "tags": ["High Protein", "Vegetarisch"]
+    "tags": [
+      "High Protein",
+      "Vegetarisch"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-mozzarella.png"
   },
   {
     "name": "Weihenstephan Frische Milch 1L",
@@ -632,8 +756,11 @@
     "calories": 47,
     "protein": 3.5,
     "category": "Milchprodukte",
-    "imagePath": "assets/images/aldi-milch.png",
-    "tags": ["Low Fat", "Vegetarisch"]
+    "tags": [
+      "Low Fat",
+      "Vegetarisch"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-milch.png"
   },
   {
     "name": "Alpro Joghurt-/Skyr-Alternative 400g",
@@ -643,8 +770,13 @@
     "calories": 60,
     "protein": 5.8,
     "category": "Milchprodukte",
-    "imagePath": "assets/images/aldi-alpro-skyr.png",
-    "tags": ["Vegan", "High Protein", "Low Fat", "Low Calories"]
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Low Fat",
+      "Low Calories"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-alpro-skyr.png"
   },
   {
     "name": "Cucina Nobile Tagliatelle 250g",
@@ -654,8 +786,10 @@
     "calories": 179,
     "protein": 7.0,
     "category": "Beilagen",
-    "imagePath": "assets/images/aldi-tagliatelle.png",
-    "tags": ["Vegetarisch"]
+    "tags": [
+      "Vegetarisch"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-tagliatelle.png"
   },
   {
     "name": "Trader Joe’s Nuss-Mix 200g",
@@ -665,8 +799,11 @@
     "calories": 635,
     "protein": 22.0,
     "category": "Snacks",
-    "imagePath": "assets/images/aldi-nussmix.png",
-    "tags": ["Vegetarisch", "Vegan"]
+    "tags": [
+      "Vegetarisch",
+      "Vegan"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-nussmix.png"
   },
   {
     "name": "Golden Seafood Riesengarnelen-Schwänze 225g",
@@ -676,8 +813,12 @@
     "calories": 76,
     "protein": 14.0,
     "category": "Fisch",
-    "imagePath": "assets/images/aldi-garnelen.png",
-    "tags": ["High Protein", "Low Fat", "Low Calories"]
+    "tags": [
+      "High Protein",
+      "Low Fat",
+      "Low Calories"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-garnelen.png"
   },
   {
     "name": "Milsani Speisequark 500g",
@@ -687,8 +828,12 @@
     "calories": 66,
     "protein": 12.0,
     "category": "Milchprodukte",
-    "imagePath": "assets/images/aldi-speisequark.png",
-    "tags": ["High Protein", "Low Fat", "Low Calories", "Vegetarisch"]
+    "tags": [
+      "High Protein",
+      "Low Fat",
+      "Low Calories",
+      "Vegetarisch"
+    ],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-speisequark.png"
   }
-
 ]
