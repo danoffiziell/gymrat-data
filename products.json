@@ -11,7 +11,14 @@
       "High Protein",
       "Vegetarisch"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/dr-oetker-protein-griess.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/dr-oetker-protein-griess.png",
+    "carbs": 8.0,
+    "sugar": 6.0,
+    "fat": 3.0,
+    "saturated_fat": 1.5,
+    "fiber": 0.5,
+    "salt": 0.21,
+    "old_price": 2.33
   },
   {
     "name": "Vly Erbsenproteindrink",
@@ -25,7 +32,13 @@
       "Vegan",
       "Low Fat"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/vly-protein-drink.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/vly-protein-drink.png",
+    "carbs": 6.0,
+    "sugar": 4.5,
+    "fat": 1.5,
+    "saturated_fat": 0.7,
+    "fiber": 0.5,
+    "salt": 0.17
   },
   {
     "name": "Rügenwalder Mühlen Schnitzel Vegan",
@@ -39,7 +52,13 @@
       "Vegan",
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/ruegenwalder-schnitzel.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/ruegenwalder-schnitzel.png",
+    "carbs": 8.0,
+    "sugar": 1.5,
+    "fat": 11.0,
+    "saturated_fat": 1.5,
+    "fiber": 5.0,
+    "salt": 1.62
   },
   {
     "name": "Krone Räucherlachs",
@@ -53,7 +72,14 @@
       "High Protein",
       "Low Carb"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/krone-raeucherlachs.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/krone-raeucherlachs.png",
+    "carbs": 0.5,
+    "sugar": 0.5,
+    "fat": 10.0,
+    "saturated_fat": 2.2,
+    "fiber": 0.0,
+    "salt": 1.96,
+    "old_price": 4.75
   },
   {
     "name": "Iglo Schlemmerfilet Bordelaise",
@@ -66,7 +92,14 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/iglo-schlemmerfilet.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/iglo-schlemmerfilet.png",
+    "carbs": 14.0,
+    "sugar": 1.0,
+    "fat": 12.0,
+    "saturated_fat": 1.5,
+    "fiber": 0.8,
+    "salt": 0.97,
+    "old_price": 2.98
   },
   {
     "name": "Iglo Filegro Ofen-Backfisch",
@@ -79,7 +112,13 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/iglo-ofen-backfisch.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/iglo-ofen-backfisch.png",
+    "carbs": 14.0,
+    "sugar": 1.0,
+    "fat": 12.0,
+    "saturated_fat": 1.5,
+    "fiber": 0.8,
+    "salt": 0.97
   },
   {
     "name": "Rügenwalder Veganes Cordon Bleu",
@@ -93,7 +132,14 @@
       "Vegan",
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/ruegenwalder-cordonbleu.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/ruegenwalder-cordonbleu.png",
+    "carbs": 8.0,
+    "sugar": 1.5,
+    "fat": 11.0,
+    "saturated_fat": 1.5,
+    "fiber": 5.0,
+    "salt": 1.6,
+    "old_price": 3.11
   },
   {
     "name": "Galbani Mozzarella",
@@ -107,7 +153,14 @@
       "Vegetarisch",
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/galbani-mozzarella.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/galbani-mozzarella.png",
+    "carbs": 1.0,
+    "sugar": 1.0,
+    "fat": 17.0,
+    "saturated_fat": 11.0,
+    "fiber": 0.0,
+    "salt": 0.53,
+    "old_price": 0.77
   },
   {
     "name": "Heidelbeeren 125g",
@@ -120,10 +173,16 @@
     "tags": [
       "Vegan",
       "Vegetarisch",
-      "Low Calories",
       "Low Calories"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/rewe-heidelbeeren.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/rewe-heidelbeeren.png",
+    "carbs": 11.5,
+    "sugar": 10.0,
+    "fat": 0.3,
+    "saturated_fat": 0.0,
+    "fiber": 2.4,
+    "salt": 0.03,
+    "old_price": 1.58
   },
   {
     "name": "Prosciutto Cotto",
@@ -136,7 +195,14 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/rewe-ponnath-delikatesse.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/rewe-ponnath-delikatesse.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 6.0,
+    "saturated_fat": 2.0,
+    "fiber": 0.0,
+    "salt": 0.2,
+    "old_price": 2.24
   },
   {
     "name": "Geflügel Rostbratwurst",
@@ -149,7 +215,13 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/rewe-rostbratwurst.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/rewe-rostbratwurst.png",
+    "carbs": 2.0,
+    "sugar": 0.8,
+    "fat": 12.0,
+    "saturated_fat": 4.0,
+    "fiber": 0.0,
+    "salt": 1.76
   },
   {
     "name": "Süßkartoffel 1kg",
@@ -163,7 +235,13 @@
       "Vegan",
       "Low Fat"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-suesskartoffeln.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-suesskartoffeln.png",
+    "carbs": 20.1,
+    "sugar": 4.2,
+    "fat": 0.1,
+    "saturated_fat": 0.0,
+    "fiber": 3.0,
+    "salt": 0.02
   },
   {
     "name": "Milbona Joghurt mild 1,5% Fett",
@@ -177,7 +255,14 @@
       "Vegetarisch",
       "Low Fat"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-milbona-joghurt.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-milbona-joghurt.png",
+    "carbs": 4.5,
+    "sugar": 4.5,
+    "fat": 1.5,
+    "saturated_fat": 1.0,
+    "fiber": 0.0,
+    "salt": 0.12,
+    "old_price": 0.74
   },
   {
     "name": "Vemondo Mandelmilch ungesüßt",
@@ -191,7 +276,14 @@
       "Vegan",
       "Low Calories"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-vemondo-mandelmilch.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-vemondo-mandelmilch.png",
+    "carbs": 0.3,
+    "sugar": 0.0,
+    "fat": 1.1,
+    "saturated_fat": 0.1,
+    "fiber": 0.2,
+    "salt": 0.09,
+    "old_price": 1.03
   },
   {
     "name": "Tasty Food in a Bottle (versch. Sorten)",
@@ -204,7 +296,13 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-tasty-drink.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-tasty-drink.png",
+    "carbs": 4.0,
+    "sugar": 3.0,
+    "fat": 1.0,
+    "saturated_fat": 0.3,
+    "fiber": 0.3,
+    "salt": 0.16
   },
   {
     "name": "Fettarmer Kefir",
@@ -218,7 +316,13 @@
       "Vegetarisch",
       "Low Fat"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-milbona-kefir.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-milbona-kefir.png",
+    "carbs": 4.0,
+    "sugar": 4.0,
+    "fat": 0.3,
+    "saturated_fat": 0.2,
+    "fiber": 0.0,
+    "salt": 0.11
   },
   {
     "name": "Hähnchen-Minutenschnitzel 1kg",
@@ -231,7 +335,14 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-haehnchen-minutenschnitzel.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-haehnchen-minutenschnitzel.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 6.0,
+    "saturated_fat": 2.0,
+    "fiber": 0.0,
+    "salt": 0.1,
+    "old_price": 10.3
   },
   {
     "name": "Rindersteak aus Südamerika 300g",
@@ -244,7 +355,14 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-rindersteak.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-rindersteak.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 6.0,
+    "saturated_fat": 2.0,
+    "fiber": 0.0,
+    "salt": 0.11,
+    "old_price": 4.22
   },
   {
     "name": "Metzgerfrisch Bio Rindergulasch 400g",
@@ -257,7 +375,13 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-rindergulasch.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-rindergulasch.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 6.0,
+    "saturated_fat": 2.0,
+    "fiber": 0.0,
+    "salt": 0.13
   },
   {
     "name": "Norwegische Lachsseite 1kg",
@@ -271,7 +395,14 @@
       "High Protein",
       "Low Carb"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-lachsseite.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-lachsseite.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 13.0,
+    "saturated_fat": 3.0,
+    "fiber": 0.0,
+    "salt": 0.14,
+    "old_price": 18.43
   },
   {
     "name": "Iglo Schlemmerfilet",
@@ -284,7 +415,13 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/iglo-schlemmerfilet.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/iglo-schlemmerfilet.png",
+    "carbs": 14.0,
+    "sugar": 1.0,
+    "fat": 12.0,
+    "saturated_fat": 1.5,
+    "fiber": 0.8,
+    "salt": 0.98
   },
   {
     "name": "Golden Sun Basmati Reis",
@@ -295,7 +432,13 @@
     "protein": 8.2,
     "category": "Beilagen",
     "tags": [],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-golden-sun-basmati-reis.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-golden-sun-basmati-reis.png",
+    "carbs": 78.0,
+    "sugar": 0.5,
+    "fat": 0.7,
+    "saturated_fat": 0.2,
+    "fiber": 1.0,
+    "salt": 0.02
   },
   {
     "name": "Herta Schinken XXL 140g",
@@ -303,12 +446,18 @@
     "price": 1.99,
     "supermarket": "Lidl",
     "calories": 112,
-    "protein": 21,
+    "protein": 21.0,
     "category": "Fleisch",
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-herta-schinken-xxl.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-herta-schinken-xxl.png",
+    "carbs": 2.0,
+    "sugar": 0.8,
+    "fat": 12.0,
+    "saturated_fat": 4.0,
+    "fiber": 0.0,
+    "salt": 1.77
   },
   {
     "name": "Nautica Norwegischer Räucherlachs XXL",
@@ -321,7 +470,14 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-nautica-raeucherlachs.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-nautica-raeucherlachs.png",
+    "carbs": 0.5,
+    "sugar": 0.5,
+    "fat": 10.0,
+    "saturated_fat": 2.2,
+    "fiber": 0.0,
+    "salt": 1.97,
+    "old_price": 6.45
   },
   {
     "name": "Deluxe White Tiger Garnelen 720g",
@@ -329,13 +485,20 @@
     "price": 9.99,
     "supermarket": "Lidl",
     "calories": 66,
-    "protein": 15,
+    "protein": 15.0,
     "category": "Fisch",
     "tags": [
       "High Protein",
       "Low Fat"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-white-tiger-garnelen.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-white-tiger-garnelen.png",
+    "carbs": 0.5,
+    "sugar": 0.5,
+    "fat": 0.8,
+    "saturated_fat": 0.2,
+    "fiber": 0.0,
+    "salt": 0.61,
+    "old_price": 12.7
   },
   {
     "name": "Hähnchen-Minischnitte Cornflakes-Panade 540g",
@@ -348,7 +511,13 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-haehnchen-minischnitte.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-haehnchen-minischnitte.png",
+    "carbs": 2.0,
+    "sugar": 0.8,
+    "fat": 12.0,
+    "saturated_fat": 4.0,
+    "fiber": 0.0,
+    "salt": 1.83
   },
   {
     "name": "Frische Schweinenackensteaks 800g",
@@ -359,7 +528,14 @@
     "protein": 19.0,
     "category": "Fleisch",
     "tags": [],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-schweinenackensteaks.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-schweinenackensteaks.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 6.0,
+    "saturated_fat": 2.0,
+    "fiber": 0.0,
+    "salt": 0.12,
+    "old_price": 5.88
   },
   {
     "name": "Metzgerfrisch Frische Hamburger vom Rind 800g",
@@ -372,7 +548,14 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-hamburger.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-hamburger.png",
+    "carbs": 2.0,
+    "sugar": 0.8,
+    "fat": 12.0,
+    "saturated_fat": 4.0,
+    "fiber": 0.0,
+    "salt": 1.78,
+    "old_price": 10.41
   },
   {
     "name": "Metzgerfrisch Rinderkeulensteaks 800g",
@@ -385,7 +568,14 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-rinderkeulensteaks.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-rinderkeulensteaks.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 6.0,
+    "saturated_fat": 2.0,
+    "fiber": 0.0,
+    "salt": 0.19,
+    "old_price": 13.89
   },
   {
     "name": "3 Glocken Genuss Pur Nudeln 500g",
@@ -396,7 +586,13 @@
     "protein": 12.0,
     "category": "Beilagen",
     "tags": [],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-3glocken-nudeln.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-3glocken-nudeln.png",
+    "carbs": 70.0,
+    "sugar": 3.0,
+    "fat": 1.5,
+    "saturated_fat": 0.3,
+    "fiber": 3.0,
+    "salt": 0.01
   },
   {
     "name": "Grillmeister Schweinebauchscheiben 700g",
@@ -407,7 +603,14 @@
     "protein": 15.5,
     "category": "Fleisch",
     "tags": [],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-schweinebauchscheiben.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/lidl-schweinebauchscheiben.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 6.0,
+    "saturated_fat": 2.0,
+    "fiber": 0.0,
+    "salt": 0.15,
+    "old_price": 5.1
   },
   {
     "name": "Bananen 1kg",
@@ -422,7 +625,14 @@
       "Vegetarisch",
       "Low Fat"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-bananen.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-bananen.png",
+    "carbs": 22.8,
+    "sugar": 12.2,
+    "fat": 0.3,
+    "saturated_fat": 0.1,
+    "fiber": 2.6,
+    "salt": 0.02,
+    "old_price": 1.23
   },
   {
     "name": "Räucherlachs XXL",
@@ -430,12 +640,19 @@
     "price": 4.49,
     "supermarket": "Aldi",
     "calories": 196,
-    "protein": 19,
+    "protein": 19.0,
     "category": "Fisch",
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-raeucherlachs.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-raeucherlachs.png",
+    "carbs": 0.5,
+    "sugar": 0.5,
+    "fat": 10.0,
+    "saturated_fat": 2.2,
+    "fiber": 0.0,
+    "salt": 2.04,
+    "old_price": 5.19
   },
   {
     "name": "Cherrydatteltomaten XXL 1kg",
@@ -443,13 +660,20 @@
     "price": 2.89,
     "supermarket": "Aldi",
     "calories": 20,
-    "protein": 1,
+    "protein": 1.0,
     "category": "Obst & Gemüse",
     "tags": [
       "Vegan",
       "Vegetarisch"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-cherrytomaten.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-cherrytomaten.png",
+    "carbs": 3.9,
+    "sugar": 2.6,
+    "fat": 0.2,
+    "saturated_fat": 0.0,
+    "fiber": 1.2,
+    "salt": 0.06,
+    "old_price": 3.24
   },
   {
     "name": "Avocado",
@@ -457,13 +681,20 @@
     "price": 1.11,
     "supermarket": "Aldi",
     "calories": 160,
-    "protein": 2,
+    "protein": 2.0,
     "category": "Obst & Gemüse",
     "tags": [
       "Vegan",
       "Vegetarisch"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-avocado.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-avocado.png",
+    "carbs": 8.5,
+    "sugar": 0.7,
+    "fat": 15.0,
+    "saturated_fat": 2.4,
+    "fiber": 6.7,
+    "salt": 0.0,
+    "old_price": 1.4
   },
   {
     "name": "Kulturheidelbeeren 500g",
@@ -479,7 +710,14 @@
       "Low Fat",
       "Low Calories"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-heidelbeeren.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-heidelbeeren.png",
+    "carbs": 11.5,
+    "sugar": 10.0,
+    "fat": 0.3,
+    "saturated_fat": 0.0,
+    "fiber": 2.4,
+    "salt": 0.04,
+    "old_price": 4.23
   },
   {
     "name": "Erdbeeren 500g",
@@ -495,7 +733,13 @@
       "Low Fat",
       "Low Calories"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-erdbeeren.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-erdbeeren.png",
+    "carbs": 7.7,
+    "sugar": 4.9,
+    "fat": 0.3,
+    "saturated_fat": 0.0,
+    "fiber": 2.0,
+    "salt": 0.0
   },
   {
     "name": "Speisekartoffeln 5kg",
@@ -503,13 +747,19 @@
     "price": 2.79,
     "supermarket": "Aldi",
     "calories": 77,
-    "protein": 2,
+    "protein": 2.0,
     "category": "Obst & Gemüse",
     "tags": [
       "Vegan",
       "Vegetarisch"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-speisekartoffeln.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-speisekartoffeln.png",
+    "carbs": 17.0,
+    "sugar": 0.8,
+    "fat": 0.1,
+    "saturated_fat": 0.0,
+    "fiber": 2.2,
+    "salt": 0.01
   },
   {
     "name": "Schweinefilet 500g",
@@ -517,12 +767,19 @@
     "price": 3.89,
     "supermarket": "Aldi",
     "calories": 110,
-    "protein": 21,
+    "protein": 21.0,
     "category": "Fleisch",
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-schweinefilet.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-schweinefilet.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 6.0,
+    "saturated_fat": 2.0,
+    "fiber": 0.0,
+    "salt": 0.19,
+    "old_price": 4.98
   },
   {
     "name": "Gyros-Geschnetzeltes XXL 800g",
@@ -530,12 +787,19 @@
     "price": 4.79,
     "supermarket": "Aldi",
     "calories": 145,
-    "protein": 18,
+    "protein": 18.0,
     "category": "Fleisch",
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-gyros.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-gyros.png",
+    "carbs": 2.0,
+    "sugar": 0.8,
+    "fat": 12.0,
+    "saturated_fat": 4.0,
+    "fiber": 0.0,
+    "salt": 1.82,
+    "old_price": 5.59
   },
   {
     "name": "BBQ Nackensteaks 600g",
@@ -543,12 +807,19 @@
     "price": 3.99,
     "supermarket": "Aldi",
     "calories": 240,
-    "protein": 20,
+    "protein": 20.0,
     "category": "Fleisch",
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-nackensteaks.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-nackensteaks.png",
+    "carbs": 2.0,
+    "sugar": 0.8,
+    "fat": 12.0,
+    "saturated_fat": 4.0,
+    "fiber": 0.0,
+    "salt": 1.81,
+    "old_price": 4.82
   },
   {
     "name": "Hähnchen-Innenfilets 400g",
@@ -556,13 +827,19 @@
     "price": 3.79,
     "supermarket": "Aldi",
     "calories": 106,
-    "protein": 23,
+    "protein": 23.0,
     "category": "Fleisch",
     "tags": [
       "High Protein",
       "Low Fat"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-haehnchen-innenfilets.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-haehnchen-innenfilets.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 6.0,
+    "saturated_fat": 2.0,
+    "fiber": 0.0,
+    "salt": 0.15
   },
   {
     "name": "Lammfilets XXL 430g",
@@ -570,12 +847,19 @@
     "price": 11.99,
     "supermarket": "Aldi",
     "calories": 160,
-    "protein": 20,
+    "protein": 20.0,
     "category": "Fleisch",
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-lammfilets.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-lammfilets.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 6.0,
+    "saturated_fat": 2.0,
+    "fiber": 0.0,
+    "salt": 0.19,
+    "old_price": 14.69
   },
   {
     "name": "Hackfleisch gemischt XXL 800g",
@@ -583,12 +867,18 @@
     "price": 7.99,
     "supermarket": "Aldi",
     "calories": 240,
-    "protein": 18,
+    "protein": 18.0,
     "category": "Fleisch",
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-hackfleisch.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-hackfleisch.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 6.0,
+    "saturated_fat": 2.0,
+    "fiber": 0.0,
+    "salt": 0.12
   },
   {
     "name": "Lachsfiletseite 1000g",
@@ -596,12 +886,19 @@
     "price": 14.99,
     "supermarket": "Aldi",
     "calories": 208,
-    "protein": 20,
+    "protein": 20.0,
     "category": "Fisch",
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-lachsfiletseite.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-lachsfiletseite.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 13.0,
+    "saturated_fat": 3.0,
+    "fiber": 0.0,
+    "salt": 0.19,
+    "old_price": 18.88
   },
   {
     "name": "Hähnchenschenkel mit Rückenstück XXL 2kg",
@@ -609,12 +906,19 @@
     "price": 6.49,
     "supermarket": "Aldi",
     "calories": 185,
-    "protein": 20,
+    "protein": 20.0,
     "category": "Fleisch",
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-haehnchenschenkel.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-haehnchenschenkel.png",
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fat": 6.0,
+    "saturated_fat": 2.0,
+    "fiber": 0.0,
+    "salt": 0.16,
+    "old_price": 8.38
   },
   {
     "name": "McCain Golden Longs 750g",
@@ -622,10 +926,16 @@
     "price": 1.99,
     "supermarket": "Aldi",
     "calories": 280,
-    "protein": 3,
+    "protein": 3.0,
     "category": "Tiefkühl",
     "tags": [],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-mccain.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-mccain.png",
+    "carbs": 5.0,
+    "sugar": 2.0,
+    "fat": 3.0,
+    "saturated_fat": 1.0,
+    "fiber": 1.0,
+    "salt": 0.2
   },
   {
     "name": "Iglo Backfisch/Fischstäbchen 450g",
@@ -633,12 +943,19 @@
     "price": 2.29,
     "supermarket": "Aldi",
     "calories": 230,
-    "protein": 12,
+    "protein": 12.0,
     "category": "Tiefkühl",
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-iglo-fischstaebchen.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-iglo-fischstaebchen.png",
+    "carbs": 14.0,
+    "sugar": 1.0,
+    "fat": 12.0,
+    "saturated_fat": 1.5,
+    "fiber": 0.8,
+    "salt": 1.0,
+    "old_price": 2.7
   },
   {
     "name": "MYVAY The Wonder Grill-/Flammenspieße",
@@ -653,7 +970,13 @@
       "Vegan",
       "Vegetarisch"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-myvay-spiesse.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-myvay-spiesse.png",
+    "carbs": 8.0,
+    "sugar": 1.5,
+    "fat": 11.0,
+    "saturated_fat": 1.5,
+    "fiber": 5.0,
+    "salt": 1.55
   },
   {
     "name": "BBQ Hähnchensteaks",
@@ -666,7 +989,13 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-bbq-haehnchensteaks.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-bbq-haehnchensteaks.png",
+    "carbs": 2.0,
+    "sugar": 0.8,
+    "fat": 12.0,
+    "saturated_fat": 4.0,
+    "fiber": 0.0,
+    "salt": 1.84
   },
   {
     "name": "Schinkengulasch XXL 800g",
@@ -679,7 +1008,14 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-schinkengulasch.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-schinkengulasch.png",
+    "carbs": 2.0,
+    "sugar": 0.8,
+    "fat": 12.0,
+    "saturated_fat": 4.0,
+    "fiber": 0.0,
+    "salt": 1.78,
+    "old_price": 7.9
   },
   {
     "name": "Chicken Nuggets XXL 800g",
@@ -692,7 +1028,14 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-chicken-nuggets.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-chicken-nuggets.png",
+    "carbs": 2.0,
+    "sugar": 0.8,
+    "fat": 12.0,
+    "saturated_fat": 4.0,
+    "fiber": 0.0,
+    "salt": 1.84,
+    "old_price": 7.32
   },
   {
     "name": "BBQ Hähnchen Ministeaks XXL 800g",
@@ -705,7 +1048,13 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-ministeaks.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-ministeaks.png",
+    "carbs": 2.0,
+    "sugar": 0.8,
+    "fat": 12.0,
+    "saturated_fat": 4.0,
+    "fiber": 0.0,
+    "salt": 1.76
   },
   {
     "name": "Minischnitzel XXL 800g",
@@ -718,7 +1067,14 @@
     "tags": [
       "High Protein"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-minischnitzel.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-minischnitzel.png",
+    "carbs": 2.0,
+    "sugar": 0.8,
+    "fat": 12.0,
+    "saturated_fat": 4.0,
+    "fiber": 0.0,
+    "salt": 1.83,
+    "old_price": 7.91
   },
   {
     "name": "Rama Cremefine 250ml",
@@ -732,7 +1088,14 @@
       "Low Fat",
       "Vegetarisch"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-cremefine.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-cremefine.png",
+    "carbs": 4.0,
+    "sugar": 3.0,
+    "fat": 7.0,
+    "saturated_fat": 4.5,
+    "fiber": 0.0,
+    "salt": 0.15,
+    "old_price": 1.17
   },
   {
     "name": "Cucina Nobile Mozzarella 125g",
@@ -746,7 +1109,14 @@
       "High Protein",
       "Vegetarisch"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-mozzarella.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-mozzarella.png",
+    "carbs": 1.0,
+    "sugar": 1.0,
+    "fat": 17.0,
+    "saturated_fat": 11.0,
+    "fiber": 0.0,
+    "salt": 0.49,
+    "old_price": 0.8
   },
   {
     "name": "Weihenstephan Frische Milch 1L",
@@ -760,7 +1130,14 @@
       "Low Fat",
       "Vegetarisch"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-milch.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-milch.png",
+    "carbs": 4.9,
+    "sugar": 4.9,
+    "fat": 1.5,
+    "saturated_fat": 1.0,
+    "fiber": 0.0,
+    "salt": 0.12,
+    "old_price": 1.17
   },
   {
     "name": "Alpro Joghurt-/Skyr-Alternative 400g",
@@ -776,7 +1153,13 @@
       "Low Fat",
       "Low Calories"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-alpro-skyr.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-alpro-skyr.png",
+    "carbs": 4.5,
+    "sugar": 4.5,
+    "fat": 1.5,
+    "saturated_fat": 1.0,
+    "fiber": 0.0,
+    "salt": 0.15
   },
   {
     "name": "Cucina Nobile Tagliatelle 250g",
@@ -789,7 +1172,14 @@
     "tags": [
       "Vegetarisch"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-tagliatelle.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-tagliatelle.png",
+    "carbs": 70.0,
+    "sugar": 3.0,
+    "fat": 1.5,
+    "saturated_fat": 0.3,
+    "fiber": 3.0,
+    "salt": 0.01,
+    "old_price": 1.68
   },
   {
     "name": "Trader Joe’s Nuss-Mix 200g",
@@ -803,7 +1193,14 @@
       "Vegetarisch",
       "Vegan"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-nussmix.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-nussmix.png",
+    "carbs": 8.0,
+    "sugar": 1.5,
+    "fat": 11.0,
+    "saturated_fat": 1.5,
+    "fiber": 5.0,
+    "salt": 1.57,
+    "old_price": 2.48
   },
   {
     "name": "Golden Seafood Riesengarnelen-Schwänze 225g",
@@ -818,7 +1215,14 @@
       "Low Fat",
       "Low Calories"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-garnelen.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-garnelen.png",
+    "carbs": 0.5,
+    "sugar": 0.5,
+    "fat": 0.8,
+    "saturated_fat": 0.2,
+    "fiber": 0.0,
+    "salt": 0.57,
+    "old_price": 4.12
   },
   {
     "name": "Milsani Speisequark 500g",
@@ -834,6 +1238,13 @@
       "Low Calories",
       "Vegetarisch"
     ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-speisequark.png"
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aldi-speisequark.png",
+    "carbs": 3.9,
+    "sugar": 3.9,
+    "fat": 0.2,
+    "saturated_fat": 0.1,
+    "fiber": 0.0,
+    "salt": 0.11,
+    "old_price": 1.18
   }
 ]
