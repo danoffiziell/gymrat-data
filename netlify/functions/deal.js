@@ -62,17 +62,12 @@ function slugify(s) {
   return String(s)
     .toLowerCase()
     .trim()
-    .replace(/[^a-z0-9äöüß]+/g, "-")
+    .replaceAll("ä", "ae")
+    .replaceAll("ö", "oe")
+    .replaceAll("ü", "ue")
+    .replaceAll("ß", "ss")
+    .replace(/[^a-z0-9]+/g, "-")
     .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "")
-    .replaceAll(".", "-"); // wichtig: 1.99 -> 1-99
+    .replace(/^-|-$/g, "");
 }
 
-function escapeHtml(s) {
-  return String(s)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
-}
