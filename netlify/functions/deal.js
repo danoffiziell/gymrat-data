@@ -31,11 +31,10 @@ export default async (req, context) => {
     }
 
 function buildKey(x) {
-  const priceFixed = Number(x.price).toFixed(2);     // 1.99
-  const priceSlug  = priceFixed.replace(".", "-");   // 1-99
-  // Key immer im selben Format wie dein URL-Key
-  return slugify(`${x.supermarket}-${x.brand}-${x.name}-${priceSlug}`);
+  const priceFixed = Number(x.price).toFixed(2); // 1.99
+  return slugify(`${x.supermarket}-${x.brand}-${x.name}-${priceFixed}`);
 }
+
 
 // 1) exakter Match
 let p = products.find((x) => buildKey(x) === key);
@@ -46,6 +45,22 @@ if (!p) {
   p = products.find((x) => buildKey(x).startsWith(keyNoPrice));
 }
 
+if (url.searchParams.get("debug") === "1") {
+  return new Response(
+    JSON.stringify(
+      {
+        keyRaw,
+        normalizedKey: key,
+        found: !!p,
+        foundName: p?.name || null,
+        foundImage: p?.image_url || null,
+      },
+      null,
+      2
+    ),
+    { status: 200, headers: { "content-type": "application/json" } }
+  );
+}
 
     const pageUrl = `${base}/deal/${encodeURIComponent(keyRaw)}`;
 
