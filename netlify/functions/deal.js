@@ -30,12 +30,22 @@ export default async (req, context) => {
       );
     }
 
-    const p = products.find((x) => {
-      const candidate = slugify(
-        `${x.supermarket}-${x.brand}-${x.name}-${Number(x.price).toFixed(2)}`
-      );
-      return candidate === key;
-    });
+function buildKey(x) {
+  const priceFixed = Number(x.price).toFixed(2);     // 1.99
+  const priceSlug  = priceFixed.replace(".", "-");   // 1-99
+  // Key immer im selben Format wie dein URL-Key
+  return slugify(`${x.supermarket}-${x.brand}-${x.name}-${priceSlug}`);
+}
+
+// 1) exakter Match
+let p = products.find((x) => buildKey(x) === key);
+
+// 2) Fallback: manche Keys sind ohne Preis oder mit anderem Preisformat → toleranter Match
+if (!p) {
+  const keyNoPrice = key.replace(/-\d+-\d+$/, ""); // ...-1-99 weg
+  p = products.find((x) => buildKey(x).startsWith(keyNoPrice));
+}
+
 
     const pageUrl = `${base}/deal/${encodeURIComponent(keyRaw)}`;
 
