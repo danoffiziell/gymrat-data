@@ -3,9 +3,29 @@ export default async (req, context) => {
   const productsUrl = `${base}/products.json`;
 
   try {
-    const url = new URL(req.url);
-    const keyRaw = url.searchParams.get("key") || "";
-    const key = slugify(keyRaw);
+const url = new URL(req.url);
+
+// 1) zuerst Query (?key=...)
+let keyRaw = url.searchParams.get("key") || "";
+
+// 2) wenn leer: aus Pfad ziehen (/deal/<KEY> oder /.netlify/functions/deal?key=:splat je nach Redirect)
+if (!keyRaw) {
+  // Beispiel-Pfade:
+  // /deal/rewe-...
+  // /.netlify/functions/deal
+  // Wir nehmen das letzte sinnvolle Segment
+  const parts = url.pathname.split("/").filter(Boolean);
+  // wenn jemand /deal/<key> aufruft:
+  if (parts[0] === "deal" && parts.length >= 2) {
+    keyRaw = parts.slice(1).join("/"); // falls mal slash drin wäre
+  } else {
+    // fallback: letztes Segment
+    keyRaw = parts[parts.length - 1] || "";
+  }
+}
+
+const key = slugify(decodeURIComponent(keyRaw));
+
 
     const r = await fetch(productsUrl, { headers: { "cache-control": "no-cache" } });
     if (!r.ok) {
