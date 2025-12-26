@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/deal/*"
+  to = "/.netlify/functions/deal?key=:splat"
+  status = 200
