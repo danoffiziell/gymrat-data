@@ -1,6 +1,8 @@
 export default async (req, context) => {
   const base = "https://sage-paprenjak-ea3f46.netlify.app";
   const productsUrl = `${base}/products.json`;
+const IOS_APP_STORE_URL = "https://apps.apple.com/app/id6743335261";
+const IOS_TESTFLIGHT_URL = "https://testflight.apple.com/join/DEINCODE"; // später ersetzen
 
   try {
 const url = new URL(req.url);
@@ -98,7 +100,7 @@ if (url.searchParams.get("debug") === "1") {
         ? String(p.image_url).trim()
         : `${base}/images/og-default.png`;
 
-    const redirectTo = `${base}/products.json`;
+
 
     const html = `<!doctype html>
 <html lang="de">
@@ -115,10 +117,35 @@ if (url.searchParams.get("debug") === "1") {
   <meta name="twitter:card" content="summary_large_image" />
   <title>${escapeHtml(title)}</title>
 
-  <meta http-equiv="refresh" content="0; url=${escapeHtml(redirectTo)}" />
+<script>
+  (function () {
+    // Deep Link in die App (Custom Scheme)
+    var deepLink = "gymrat://deal/${encodeURIComponent(keyRaw)}";
+
+    // Fallback (erst TestFlight, später kannst du auf App Store umstellen)
+    var testFlight = "${escapeHtml(IOS_TESTFLIGHT_URL)}";
+    var appStore = "${escapeHtml(IOS_APP_STORE_URL)}";
+
+    // 1) Versuche App zu öffnen
+    window.location.href = deepLink;
+
+    // 2) Wenn nicht installiert → nach kurzer Zeit Fallback öffnen
+    setTimeout(function () {
+      // Wenn TestFlight-Link gesetzt ist, nutze ihn. Sonst App Store.
+      var target = (testFlight && testFlight.indexOf("testflight.apple.com") !== -1) ? testFlight : appStore;
+      window.location.href = target;
+    }, 900);
+  })();
+</script>
 </head>
-<body></body>
-</html>`;
+<body>
+<noscript>
+  <p>Bitte öffne die App oder installiere sie:</p>
+  <p><a href="${escapeHtml(IOS_APP_STORE_URL)}">App Store</a></p>
+</noscript>
+</body>
+</html>
+
 
     return new Response(html, {
       status: 200,
