@@ -1,90 +1,84 @@
-export default async (req, context) => {
+exports.handler = async (event, context) => {
   const base = "https://sage-paprenjak-ea3f46.netlify.app";
   const productsUrl = `${base}/products.json`;
-const IOS_APP_STORE_URL = "https://apps.apple.com/app/id6743335261";
-const IOS_TESTFLIGHT_URL = "https://testflight.apple.com/join/DEINCODE"; // später ersetzen
+
+  const IOS_APP_STORE_URL = "https://apps.apple.com/app/id6743335261";
+  const IOS_TESTFLIGHT_URL = "https://testflight.apple.com/join/DEINCODE"; // später ersetzen
 
   try {
-const url = new URL(req.url);
+    const url = new URL(event.rawUrl);
 
-// 1) zuerst Query (?key=...)
-let keyRaw = url.searchParams.get("key") || "";
+    // 1) key aus Query (?key=...)
+    let keyRaw = url.searchParams.get("key") || "";
 
-// 2) wenn leer: aus Pfad ziehen (/deal/<KEY> oder /.netlify/functions/deal?key=:splat je nach Redirect)
-if (!keyRaw) {
-  // Beispiel-Pfade:
-  // /deal/rewe-...
-  // /.netlify/functions/deal
-  // Wir nehmen das letzte sinnvolle Segment
-  const parts = url.pathname.split("/").filter(Boolean);
-  // wenn jemand /deal/<key> aufruft:
-  if (parts[0] === "deal" && parts.length >= 2) {
-    keyRaw = parts.slice(1).join("/"); // falls mal slash drin wäre
-  } else {
-    // fallback: letztes Segment
-    keyRaw = parts[parts.length - 1] || "";
-  }
-}
+    // 2) wenn leer: aus Pfad ziehen (/deal/<KEY> oder /d/<KEY>)
+    if (!keyRaw) {
+      const parts = url.pathname.split("/").filter(Boolean);
+      if ((parts[0] === "deal" || parts[0] === "d") && parts.length >= 2) {
+        keyRaw = parts.slice(1).join("/");
+      } else {
+        keyRaw = parts[parts.length - 1] || "";
+      }
+    }
 
-const key = slugify(decodeURIComponent(keyRaw));
-
+    const key = slugify(decodeURIComponent(keyRaw));
 
     const r = await fetch(productsUrl, { headers: { "cache-control": "no-cache" } });
     if (!r.ok) {
-      return new Response(
-        debugHtml("Fetch products.json failed", {
+      return {
+        statusCode: 500,
+        headers: { "content-type": "text/html; charset=utf-8" },
+        body: debugHtml("Fetch products.json failed", {
           status: r.status,
           statusText: r.statusText,
           productsUrl,
         }),
-        { status: 500, headers: { "content-type": "text/html; charset=utf-8" } }
-      );
+      };
     }
 
     const products = await r.json();
     if (!Array.isArray(products)) {
-      return new Response(
-        debugHtml("products.json is not an array", {
+      return {
+        statusCode: 500,
+        headers: { "content-type": "text/html; charset=utf-8" },
+        body: debugHtml("products.json is not an array", {
           productsUrl,
           type: typeof products,
         }),
-        { status: 500, headers: { "content-type": "text/html; charset=utf-8" } }
-      );
+      };
     }
 
-function buildKey(x) {
-  const priceFixed = Number(x.price).toFixed(2); // 1.99
-  return slugify(`${x.supermarket}-${x.brand}-${x.name}-${priceFixed}`);
-}
+    function buildKey(x) {
+      const priceFixed = Number(x.price).toFixed(2);
+      return slugify(`${x.supermarket}-${x.brand}-${x.name}-${priceFixed}`);
+    }
 
+    let p = products.find((x) => buildKey(x) === key);
 
-// 1) exakter Match
-let p = products.find((x) => buildKey(x) === key);
+    if (!p) {
+      const keyNoPrice = key.replace(/-\d+-\d+$/, "");
+      p = products.find((x) => buildKey(x).startsWith(keyNoPrice));
+    }
 
-// 2) Fallback: manche Keys sind ohne Preis oder mit anderem Preisformat → toleranter Match
-if (!p) {
-  const keyNoPrice = key.replace(/-\d+-\d+$/, ""); // ...-1-99 weg
-  p = products.find((x) => buildKey(x).startsWith(keyNoPrice));
-}
+    if (url.searchParams.get("debug") === "1") {
+      return {
+        statusCode: 200,
+        headers: { "content-type": "application/json; charset=utf-8" },
+        body: JSON.stringify(
+          {
+            keyRaw,
+            normalizedKey: key,
+            found: !!p,
+            foundName: p?.name || null,
+            foundImage: p?.image_url || null,
+          },
+          null,
+          2
+        ),
+      };
+    }
 
-if (url.searchParams.get("debug") === "1") {
-  return new Response(
-    JSON.stringify(
-      {
-        keyRaw,
-        normalizedKey: key,
-        found: !!p,
-        foundName: p?.name || null,
-        foundImage: p?.image_url || null,
-      },
-      null,
-      2
-    ),
-    { status: 200, headers: { "content-type": "application/json" } }
-  );
-}
-
-    const pageUrl = `${base}/deal/${encodeURIComponent(keyRaw)}`;
+    const pageUrl = `${base}/d/${encodeURIComponent(keyRaw)}`;
 
     const title = p ? `GymRat Deal 🔥 ${p.name}` : "GymRat Deal 🔥";
     const desc = p
@@ -92,15 +86,13 @@ if (url.searchParams.get("debug") === "1") {
           xHas(p, "old_price") && p.old_price != null
             ? ` statt ${Number(p.old_price).toFixed(2)} €`
             : ""
-        } · ${p.category}`
+        } · ${p.category} — Mehr Deals in der App`
       : "Protein-Deals & Angebote";
 
     const image =
       p && p.image_url && String(p.image_url).trim().length > 0
         ? String(p.image_url).trim()
         : `${base}/images/og-default.png`;
-
-
 
     const html = `<!doctype html>
 <html lang="de">
@@ -117,52 +109,46 @@ if (url.searchParams.get("debug") === "1") {
   <meta name="twitter:card" content="summary_large_image" />
   <title>${escapeHtml(title)}</title>
 
-<script>
-  (function () {
-    // Deep Link in die App (Custom Scheme)
-    var deepLink = "gymrat://deal/${encodeURIComponent(keyRaw)}";
+  <script>
+    (function () {
+      var deepLink = "gymrat://deal/${encodeURIComponent(keyRaw)}";
+      var testFlight = "${escapeHtml(IOS_TESTFLIGHT_URL)}";
+      var appStore = "${escapeHtml(IOS_APP_STORE_URL)}";
 
-    // Fallback (erst TestFlight, später kannst du auf App Store umstellen)
-    var testFlight = "${escapeHtml(IOS_TESTFLIGHT_URL)}";
-    var appStore = "${escapeHtml(IOS_APP_STORE_URL)}";
+      window.location.href = deepLink;
 
-    // 1) Versuche App zu öffnen
-    window.location.href = deepLink;
-
-    // 2) Wenn nicht installiert → nach kurzer Zeit Fallback öffnen
-    setTimeout(function () {
-      // Wenn TestFlight-Link gesetzt ist, nutze ihn. Sonst App Store.
-      var target = (testFlight && testFlight.indexOf("testflight.apple.com") !== -1) ? testFlight : appStore;
-      window.location.href = target;
-    }, 900);
-  })();
-</script>
+      setTimeout(function () {
+        var target = (testFlight && testFlight.indexOf("testflight.apple.com") !== -1) ? testFlight : appStore;
+        window.location.href = target;
+      }, 900);
+    })();
+  </script>
 </head>
 <body>
-<noscript>
-  <p>Bitte öffne die App oder installiere sie:</p>
-  <p><a href="${escapeHtml(IOS_APP_STORE_URL)}">App Store</a></p>
-</noscript>
+  <noscript>
+    <p>Bitte öffne die App oder installiere sie:</p>
+    <p><a href="${escapeHtml(IOS_APP_STORE_URL)}">App Store</a></p>
+  </noscript>
 </body>
-</html>
+</html>`;
 
-
-    return new Response(html, {
-      status: 200,
+    return {
+      statusCode: 200,
       headers: {
         "content-type": "text/html; charset=utf-8",
         "cache-control": "no-store",
       },
-    });
+      body: html,
+    };
   } catch (e) {
-    return new Response(
-      debugHtml("Function crashed", {
+    return {
+      statusCode: 500,
+      headers: { "content-type": "text/html; charset=utf-8" },
+      body: debugHtml("Function crashed", {
         message: String(e?.message || e),
         stack: String(e?.stack || ""),
-        productsUrl,
       }),
-      { status: 500, headers: { "content-type": "text/html; charset=utf-8" } }
-    );
+    };
   }
 };
 
@@ -178,7 +164,7 @@ function slugify(s) {
     .replaceAll("ö", "oe")
     .replaceAll("ü", "ue")
     .replaceAll("ß", "ss")
-    .replaceAll(".", "-") // 1.99 -> 1-99
+    .replaceAll(".", "-")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "");
