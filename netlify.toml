@@ -5,3 +5,8 @@
   from = "/deal/*"
   to = "/.netlify/functions/deal?key=:splat"
   status = 200
+
+[[redirects]]
+  from = "/d/*"
+  to = "/.netlify/functions/deal?key=:splat"
+  status = 200
