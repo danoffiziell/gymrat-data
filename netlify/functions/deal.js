@@ -1,29 +1,58 @@
 export default async (req, context) => {
+  const base = "https://sage-paprenjak-ea3f46.netlify.app";
+  const productsUrl = `${base}/products.json`;
+
   try {
     const url = new URL(req.url);
-    const key = url.searchParams.get("key") || "";
+    const keyRaw = url.searchParams.get("key") || "";
+    const key = slugify(keyRaw);
 
-    const productsUrl = "https://sage-paprenjak-ea3f46.netlify.app/products.json";
     const r = await fetch(productsUrl, { headers: { "cache-control": "no-cache" } });
+    if (!r.ok) {
+      return new Response(
+        debugHtml("Fetch products.json failed", {
+          status: r.status,
+          statusText: r.statusText,
+          productsUrl,
+        }),
+        { status: 500, headers: { "content-type": "text/html; charset=utf-8" } }
+      );
+    }
+
     const products = await r.json();
+    if (!Array.isArray(products)) {
+      return new Response(
+        debugHtml("products.json is not an array", {
+          productsUrl,
+          type: typeof products,
+        }),
+        { status: 500, headers: { "content-type": "text/html; charset=utf-8" } }
+      );
+    }
 
-    const p = products.find(x =>
-      slugify(`${x.supermarket}-${x.brand}-${x.name}-${Number(x.price).toFixed(2)}`) === key
-    );
+    const p = products.find((x) => {
+      const candidate = slugify(
+        `${x.supermarket}-${x.brand}-${x.name}-${Number(x.price).toFixed(2)}`
+      );
+      return candidate === key;
+    });
 
-    const base = "https://sage-paprenjak-ea3f46.netlify.app";
-    const pageUrl = `${base}/deal/${encodeURIComponent(key)}`;
+    const pageUrl = `${base}/deal/${encodeURIComponent(keyRaw)}`;
 
     const title = p ? `GymRat Deal 🔥 ${p.name}` : "GymRat Deal 🔥";
     const desc = p
-      ? `${p.supermarket} · ${Number(p.price).toFixed(2)} € · ${p.category}`
+      ? `${p.supermarket} · ${Number(p.price).toFixed(2)} €${
+          xHas(p, "old_price") && p.old_price != null
+            ? ` statt ${Number(p.old_price).toFixed(2)} €`
+            : ""
+        } · ${p.category}`
       : "Protein-Deals & Angebote";
 
-    const image = (p && p.image_url && String(p.image_url).trim().length > 0)
-      ? String(p.image_url).trim()
-      : `${base}/images/og-default.png`; // optionaler Fallback
+    const image =
+      p && p.image_url && String(p.image_url).trim().length > 0
+        ? String(p.image_url).trim()
+        : `${base}/images/og-default.png`;
 
-    // Für Browser: erstmal einfach zu products.json weiterleiten
     const redirectTo = `${base}/products.json`;
 
     const html = `<!doctype html>
@@ -39,8 +68,8 @@ export default async (req, context) => {
   <meta property="og:url" content="${escapeHtml(pageUrl)}" />
 
   <meta name="twitter:card" content="summary_large_image" />
-
   <title>${escapeHtml(title)}</title>
+
   <meta http-equiv="refresh" content="0; url=${escapeHtml(redirectTo)}" />
 </head>
 <body></body>
@@ -54,9 +83,20 @@ export default async (req, context) => {
       },
     });
   } catch (e) {
-    return new Response("Error", { status: 500 });
+    return new Response(
+      debugHtml("Function crashed", {
+        message: String(e?.message || e),
+        stack: String(e?.stack || ""),
+        productsUrl,
+      }),
+      { status: 500, headers: { "content-type": "text/html; charset=utf-8" } }
+    );
   }
 };
+
+function xHas(obj, key) {
+  return Object.prototype.hasOwnProperty.call(obj, key);
+}
 
 function slugify(s) {
   return String(s)
@@ -66,8 +106,26 @@ function slugify(s) {
     .replaceAll("ö", "oe")
     .replaceAll("ü", "ue")
     .replaceAll("ß", "ss")
+    .replaceAll(".", "-") // 1.99 -> 1-99
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "");
 }
 
+function escapeHtml(s) {
+  return String(s)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function debugHtml(title, data) {
+  return `<!doctype html>
+<html><head><meta charset="utf-8"><title>${escapeHtml(title)}</title></head>
+<body style="font-family: -apple-system, system-ui; padding: 20px;">
+  <h2>${escapeHtml(title)}</h2>
+  <pre>${escapeHtml(JSON.stringify(data, null, 2))}</pre>
+</body></html>`;
+}
