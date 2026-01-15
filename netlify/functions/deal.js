@@ -102,30 +102,45 @@ exports.handler = async (event, context) => {
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="canonical" href="${escapeHtml(pageUrl)}" />
+  <meta name="robots" content="index,follow" />
 
-  <meta property="og:type" content="product" />
+   <meta property="og:type" content="product" />
   <meta property="og:title" content="${escapeHtml(title)}" />
   <meta property="og:description" content="${escapeHtml(desc)}" />
-  <meta property="og:image" content="${escapeHtml(image)}" />
   <meta property="og:url" content="${escapeHtml(pageUrl)}" />
 
+  <meta property="og:image" content="${escapeHtml(image)}" />
+  <meta property="og:image:secure_url" content="${escapeHtml(image)}" />
+  <meta property="og:image:alt" content="${escapeHtml(title)}" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="${escapeHtml(title)}" />
+  <meta name="twitter:description" content="${escapeHtml(desc)}" />
+  <meta name="twitter:image" content="${escapeHtml(image)}" />
   <title>${escapeHtml(title)}</title>
+
 
  <script>
 (function () {
   var ua = navigator.userAgent.toLowerCase();
 
   // ❌ KEIN Redirect für WhatsApp / Facebook / Bots
-  if (
+   if (
     ua.includes("whatsapp") ||
     ua.includes("facebook") ||
     ua.includes("instagram") ||
     ua.includes("slack") ||
-    ua.includes("bot")
+    ua.includes("bot") ||
+    ua.includes("crawler") ||
+    ua.includes("preview") ||
+    ua.includes("spider")
   ) {
     return;
   }
+
 
   var deepLink = "gymrat://deal/${encodeURIComponent(keyRaw)}";
   var testFlight = "${escapeHtml(IOS_TESTFLIGHT_URL)}";
