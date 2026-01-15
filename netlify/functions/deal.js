@@ -80,7 +80,10 @@ exports.handler = async (event, context) => {
 
     const pageUrl = `${base}/d/${encodeURIComponent(keyRaw)}`;
 
-    const title = p ? `GymRat Deal 🔥 ${p.name}` : "GymRat Deal 🔥";
+    const title = p
+  ? `${p.name} – ${Number(p.price).toFixed(2)} €`
+  : "GymRat Deal";
+
     const desc = p
       ? `${p.supermarket} · ${Number(p.price).toFixed(2)} €${
           xHas(p, "old_price") && p.old_price != null
@@ -100,7 +103,7 @@ exports.handler = async (event, context) => {
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="product" />
   <meta property="og:title" content="${escapeHtml(title)}" />
   <meta property="og:description" content="${escapeHtml(desc)}" />
   <meta property="og:image" content="${escapeHtml(image)}" />
@@ -109,20 +112,38 @@ exports.handler = async (event, context) => {
   <meta name="twitter:card" content="summary_large_image" />
   <title>${escapeHtml(title)}</title>
 
-  <script>
-    (function () {
-      var deepLink = "gymrat://deal/${encodeURIComponent(keyRaw)}";
-      var testFlight = "${escapeHtml(IOS_TESTFLIGHT_URL)}";
-      var appStore = "${escapeHtml(IOS_APP_STORE_URL)}";
+ <script>
+(function () {
+  var ua = navigator.userAgent.toLowerCase();
 
-      window.location.href = deepLink;
+  // ❌ KEIN Redirect für WhatsApp / Facebook / Bots
+  if (
+    ua.includes("whatsapp") ||
+    ua.includes("facebook") ||
+    ua.includes("instagram") ||
+    ua.includes("slack") ||
+    ua.includes("bot")
+  ) {
+    return;
+  }
 
-      setTimeout(function () {
-        var target = (testFlight && testFlight.indexOf("testflight.apple.com") !== -1) ? testFlight : appStore;
-        window.location.href = target;
-      }, 900);
-    })();
-  </script>
+  var deepLink = "gymrat://deal/${encodeURIComponent(keyRaw)}";
+  var testFlight = "${escapeHtml(IOS_TESTFLIGHT_URL)}";
+  var appStore = "${escapeHtml(IOS_APP_STORE_URL)}";
+
+  // Erst Deep Link versuchen
+  window.location.href = deepLink;
+
+  // Fallback nach kurzer Zeit
+  setTimeout(function () {
+    var target = (testFlight && testFlight.indexOf("testflight.apple.com") !== -1)
+      ? testFlight
+      : appStore;
+    window.location.href = target;
+  }, 1200);
+})();
+</script>
+
 </head>
 <body>
   <noscript>
