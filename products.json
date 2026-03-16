@@ -758,8 +758,8 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "K-PURLAND Hüftsteak",
-    "brand": "K-PURLAND",
+    "name": "Zarte Hüftsteaks",
+    "brand": null,
     "price": 3.79,
     "supermarket": "Edeka",
     "calories": 150,
@@ -824,8 +824,8 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "Bio-Avocado",
-    "brand": null,
+    "name": "Avocado",
+    "brand": "Gut & Günstig",
     "price": null,
     "supermarket": "Edeka",
     "calories": 160,
@@ -868,9 +868,9 @@
     "nutrition_source": "off_high"
   },
   {
-    "name": "Spargel grün",
+    "name": "Spargel 1kg",
     "brand": null,
-    "price": 3.95,
+    "price": 14.90,
     "supermarket": "Edeka",
     "calories": 20,
     "protein": 2.2,
@@ -956,7 +956,7 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "Seelachsfilet",
+    "name": "Seelachsfilet 100g",
     "brand": null,
     "price": 1.49,
     "supermarket": "Edeka",
@@ -979,9 +979,9 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "Château Boeuf Tafelspitz",
-    "brand": "Château Boeuf",
-    "price": 1.99,
+    "name": " Tafelspitz",
+    "brand": null,
+    "price": 2.22,
     "supermarket": "Edeka",
     "calories": 150,
     "protein": 20.0,
@@ -997,7 +997,7 @@
     "saturated_fat": 3.0,
     "fiber": 0.0,
     "salt": 0.1,
-    "old_price": null,
+    "old_price": 2.79,
     "nutrition_source": "ai_estimate"
   },
   {
@@ -2281,10 +2281,10 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "Deutsches Schweinefilet",
+    "name": "Deutsches Schweinefilet 100g",
     "brand": null,
     "price": 0.99,
-    "supermarket": "E center",
+    "supermarket": "Edeka",
     "calories": 120,
     "protein": 22.0,
     "category": "Fleisch",
@@ -2306,7 +2306,7 @@
     "name": "Gut & Günstig Hähnchenbrustfilet XXL",
     "brand": "Gut & Günstig",
     "price": 8.9,
-    "supermarket": "E center",
+    "supermarket": "Edeka",
     "calories": 110,
     "protein": 23.0,
     "category": "Fleisch",
@@ -2328,8 +2328,8 @@
   {
     "name": "Cevapcici",
     "brand": null,
-    "price": 5.0,
-    "supermarket": "Marktkauf",
+    "price": 5.00,
+    "supermarket": "Edeka",
     "calories": 250,
     "protein": 18.0,
     "category": "Fleisch",
@@ -2348,10 +2348,10 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "Frische Hähnchenschnitzel",
+    "name": "Frische Hähnchenschnitzel 100g",
     "brand": null,
     "price": 0.99,
-    "supermarket": "E center",
+    "supermarket": "Edeka",
     "calories": 120,
     "protein": 22.0,
     "category": "Fleisch",
@@ -2373,7 +2373,7 @@
     "name": "Pura Erdbeeren",
     "brand": "Pura",
     "price": 2.77,
-    "supermarket": "Marktkauf",
+    "supermarket": "Edeka",
     "calories": 32,
     "protein": 0.7,
     "category": "Obst & Gemüse",
@@ -2395,7 +2395,7 @@
     "name": "Edeka Herzstücke Mini-Rispentomaten",
     "brand": "Edeka Herzstücke",
     "price": 2.22,
-    "supermarket": "Marktkauf",
+    "supermarket": "Edeka",
     "calories": 18,
     "protein": 0.9,
     "category": "Obst & Gemüse",
@@ -2417,7 +2417,7 @@
     "name": "Gut & Günstig Brokkoli",
     "brand": "Gut & Günstig",
     "price": 1.11,
-    "supermarket": "E center",
+    "supermarket": "Edeka",
     "calories": 35,
     "protein": 2.8,
     "category": "Obst & Gemüse",
@@ -2436,10 +2436,10 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "Frische Oberschalenschnitzel",
+    "name": "Frische Oberschalenschnitzel 100g",
     "brand": null,
     "price": 0.77,
-    "supermarket": "E center",
+    "supermarket": "Edeka",
     "calories": 140,
     "protein": 22.0,
     "category": "Fleisch",
