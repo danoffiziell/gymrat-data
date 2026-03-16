@@ -44,9 +44,9 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "Erdbeeren",
+    "name": "Erdbeeren 500g",
     "brand": null,
-    "price": 2.77,
+    "price": 2.99,
     "supermarket": "Lidl",
     "calories": 32,
     "protein": 0.7,
@@ -148,28 +148,6 @@
     "saturated_fat": 18.0,
     "fiber": 0.0,
     "salt": 1.8,
-    "old_price": null,
-    "nutrition_source": "ai_estimate"
-  },
-  {
-    "name": "Followfood Wildlachs Filets",
-    "brand": "Followfood",
-    "price": 5.49,
-    "supermarket": "Lidl",
-    "calories": 200,
-    "protein": 20.0,
-    "category": "Fisch",
-    "tags": [
-      "High Protein",
-      "Low Carb"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/330e0fe6-5d78-4e14-bb70-a264a99c3c4b_0.jpg",
-    "carbs": 0.0,
-    "sugar": 0.0,
-    "fat": 13.0,
-    "saturated_fat": 3.0,
-    "fiber": 0.0,
-    "salt": 0.1,
     "old_price": null,
     "nutrition_source": "ai_estimate"
   },
@@ -397,7 +375,7 @@
   {
     "name": "Ehrmann High Protein Chocolate Mousse",
     "brand": "Ehrmann",
-    "price": 1.29,
+    "price": 0.99,
     "supermarket": "Lidl",
     "calories": 130,
     "protein": 10.0,
@@ -412,7 +390,7 @@
     "saturated_fat": 2.5,
     "fiber": 1.0,
     "salt": 0.1,
-    "old_price": null,
+    "old_price": 1.49,
     "nutrition_source": "ai_estimate"
   },
   {
@@ -714,10 +692,10 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "Hähnchen-Brustfilet",
-    "brand": null,
-    "price": 5.66,
-    "supermarket": "Edeka",
+    "name": "Metzgerfrisch Hähnchen-Brustfilet",
+    "brand": "Metzgerfrisch",
+    "price": 5.19,
+    "supermarket": "Lidl",
     "calories": 110,
     "protein": 23.0,
     "category": "Fleisch",
@@ -732,7 +710,7 @@
     "saturated_fat": 0.5,
     "fiber": 0.0,
     "salt": 0.1,
-    "old_price": null,
+    "old_price": 6.79,
     "nutrition_source": "ai_estimate"
   },
   {
@@ -1001,9 +979,9 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "Alesto Mandeln naturbelassen",
+    "name": "Alesto Selection Mandeln XXL 500g",
     "brand": "Alesto",
-    "price": 2.99,
+    "price": 5.99,
     "supermarket": "Lidl",
     "calories": 580,
     "protein": 21.0,
@@ -1045,9 +1023,9 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "Fischerstolz Bio Lachsfilet-Portionen",
+    "name": "Fischerstolz Norwegische Lachsseite 1kg",
     "brand": "Fischerstolz",
-    "price": 13.99,
+    "price": 13.29,
     "supermarket": "Lidl",
     "calories": 180,
     "protein": 20.0,
@@ -1064,28 +1042,6 @@
     "fiber": 0.0,
     "salt": 0.1,
     "old_price": 15.49,
-    "nutrition_source": "ai_estimate"
-  },
-  {
-    "name": "Metzgerfrisch Schweine-Nackensteaks",
-    "brand": "Metzgerfrisch",
-    "price": 5.99,
-    "supermarket": "Lidl",
-    "calories": 220,
-    "protein": 20.0,
-    "category": "Fleisch",
-    "tags": [
-      "High Protein",
-      "Low Carb"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/b65d59b7-31b3-4f14-9219-151d3912fdb7_0.jpg",
-    "carbs": 0.0,
-    "sugar": 0.0,
-    "fat": 16.0,
-    "saturated_fat": 6.0,
-    "fiber": 0.0,
-    "salt": 0.1,
-    "old_price": 6.19,
     "nutrition_source": "ai_estimate"
   },
   {
@@ -1135,7 +1091,7 @@
   {
     "name": "Alesto Walnusskerne",
     "brand": "Alesto",
-    "price": 2.99,
+    "price": 1.99,
     "supermarket": "Lidl",
     "calories": 654,
     "protein": 15.2,
@@ -1151,7 +1107,7 @@
     "saturated_fat": 6.1,
     "fiber": 6.7,
     "salt": 0.0,
-    "old_price": 3.59,
+    "old_price": 2.99,
     "nutrition_source": "ai_estimate"
   },
   {
