@@ -738,7 +738,7 @@
   {
     "name": "Avocado",
     "brand": "Gut & Günstig",
-    "price": null,
+    "price": 1.11,
     "supermarket": "Edeka",
     "calories": 160,
     "protein": 2.0,
@@ -824,9 +824,9 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "Bio-Erdbeeren „Senga Sengana“, „Korona“ oder „Honeoye“",
+    "name": "Bio-Erdbeeren",
     "brand": null,
-    "price": 1.79,
+    "price": 2.99,
     "supermarket": "Edeka",
     "calories": 32,
     "protein": 0.7,
@@ -937,7 +937,7 @@
   {
     "name": "Deluxe ASC White Tiger Garnelen",
     "brand": "Deluxe",
-    "price": null,
+    "price": 22.99,
     "supermarket": "Lidl",
     "calories": 90,
     "protein": 20.0,
@@ -959,7 +959,7 @@
   {
     "name": "Deluxe Schottischer Räucherlachs",
     "brand": "Deluxe",
-    "price": null,
+    "price": 7.99,
     "supermarket": "Lidl",
     "calories": 180,
     "protein": 22.0,
@@ -1045,31 +1045,9 @@
     "nutrition_source": "ai_estimate"
   },
   {
-    "name": "Gut Ponholz Hähnchen-Innenfilet",
-    "brand": "Gut Ponholz",
-    "price": 3.99,
-    "supermarket": "Netto Marken-Discount",
-    "calories": 110,
-    "protein": 23.0,
-    "category": "Fleisch",
-    "tags": [
-      "High Protein",
-      "Low Carb"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/aa266a5b-e7c5-4abf-a096-9e2b1f37f5e7_0.jpg",
-    "carbs": 0.0,
-    "sugar": 0.0,
-    "fat": 2.0,
-    "saturated_fat": 0.5,
-    "fiber": 0.0,
-    "salt": 0.1,
-    "old_price": 4.99,
-    "nutrition_source": "ai_estimate"
-  },
-  {
-    "name": "Metzgerfrisch Bio Frische Hamburger vom Rind",
+    "name": "Metzgerfrisch Bio Frische Hamburger vom Rind 800g",
     "brand": "Metzgerfrisch",
-    "price": null,
+    "price": 9.49,
     "supermarket": "Lidl",
     "calories": 234,
     "protein": 18.0,
