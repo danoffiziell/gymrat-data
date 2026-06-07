@@ -4554,8 +4554,8 @@
     "brand": null,
     "price": 4.99,
     "supermarket": "Aldi",
-    "calories": 165,
-    "protein": 22.0,
+    "calories": 139,
+    "protein": 20.0,
     "category": "Fleisch",
     "tags": [
       "High Protein",
@@ -4603,8 +4603,8 @@
     "brand": null,
     "price": 7.49,
     "supermarket": "Aldi",
-    "calories": 174,
-    "protein": 21.0,
+    "calories": 110,
+    "protein": 23.0,
     "category": "Fleisch",
     "tags": [
       "High Protein",
