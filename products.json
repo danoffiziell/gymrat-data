@@ -194,7 +194,7 @@
     "valid_until": "2026-06-20"
   },
   {
-    "name": "Frische Schweine-Nackensteaks",
+    "name": "Frische Schweine-Nackensteaks 800g",
     "brand": "Metzgerfrisch",
     "price": 5.49,
     "supermarket": "Lidl",
@@ -291,7 +291,7 @@
     "valid_until": "2026-06-20"
   },
   {
-    "name": "Frisches Putenbrustfilet",
+    "name": "Frisches Putenbrustfilet 1kg",
     "brand": "Metzgerfrisch",
     "price": 8.49,
     "supermarket": "Lidl",
@@ -394,8 +394,8 @@
     "brand": "Grillmeister",
     "price": 2.22,
     "supermarket": "Lidl",
-    "calories": 143,
-    "protein": 20.5,
+    "calories": 220,
+    "protein": 16.5,
     "category": "Fleisch",
     "tags": [
       "High Protein",
@@ -415,7 +415,7 @@
     "valid_until": "2026-06-20"
   },
   {
-    "name": "Norwegische Lachsfilet-Portionen",
+    "name": "Norwegische Lachsfilet-Portionen 1kg",
     "brand": "FISCHERSTOLZ",
     "price": 15.99,
     "supermarket": "Lidl",
@@ -492,7 +492,7 @@
     "brand": "Metzgerfrisch",
     "price": 4.99,
     "supermarket": "Lidl",
-    "calories": 109,
+    "calories": 130,
     "protein": 20.5,
     "category": "Fleisch",
     "tags": [
@@ -1855,8 +1855,8 @@
     "brand": "Salakis",
     "price": 2.22,
     "supermarket": "Rewe",
-    "calories": 264,
-    "protein": 21.0,
+    "calories": 272,
+    "protein": 16.0,
     "category": "Milchprodukte",
     "tags": [
       "High Protein",
