@@ -8303,5 +8303,26 @@
     "nutrition_source": "off_high",
     "valid_from": "2026-06-28",
     "valid_until": "2026-07-04"
+  },
+  {
+    "name": "More Zerup",
+    "brand": "More Nutrition",
+    "price": 3.99,
+    "supermarket": "Edeka",
+    "calories": 9,
+    "protein": 0.0,
+    "category": "Snacks",
+    "tags": ["Low Calories", "Vegan", "Vegetarisch"],
+    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/more-zerup.png",
+    "carbs": 1.5,
+    "sugar": 0.0,
+    "fat": 0.0,
+    "saturated_fat": 0.0,
+    "fiber": 0.0,
+    "salt": 0.1,
+    "old_price": null,
+    "nutrition_source": "manual_research",
+    "valid_from": "2026-06-28",
+    "valid_until": "2026-07-04"
   }
 ]
