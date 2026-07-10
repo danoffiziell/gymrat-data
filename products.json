@@ -11,7 +11,7 @@
     "High Protein",
     "Low Calories"
   ],
-  "image_url": "huel.jpg",
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/huel.jpg",
   "carbs": 6.0,
   "sugar": 1.5,
   "fat": 3.4,
