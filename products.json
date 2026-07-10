@@ -1,5 +1,30 @@
 [
   {
+  "name": "Black Edition Trinkmahlzeit Schokolade",
+  "brand": "Huel",
+  "price": 2.99,
+  "supermarket": "Rewe",
+  "calories": 80,
+  "protein": 7.0,
+  "category": "Proteinshakes",
+  "tags": [
+    "High Protein",
+    "Low Calories"
+  ],
+  "image_url": "huel.jpg",
+  "carbs": 6.0,
+  "sugar": 1.5,
+  "fat": 3.4,
+  "saturated_fat": 0.8,
+  "fiber": 1.2,
+  "salt": 0.15,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-07-05",
+  "valid_until": "2026-07-11"
+},
+
+  {
     "name": "Hähnchenbrust Filetstücke XXL",
     "brand": "CHEF SELECT",
     "price": 3.49,
