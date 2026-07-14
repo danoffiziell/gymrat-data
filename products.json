@@ -977,30 +977,7 @@
     "valid_from": "2026-07-12",
     "valid_until": "2026-07-18"
   },
-  {
-    "name": "Boxer",
-    "brand": "LUPILU",
-    "price": 2.99,
-    "supermarket": "Lidl",
-    "calories": 156,
-    "protein": 13.5,
-    "category": "Fleisch",
-    "tags": [
-      "High Protein",
-      "Low Carb"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/d2e1b423-d3f7-4e22-9c1b-5e0ea1e744f0_0.jpg",
-    "carbs": 3.5,
-    "sugar": 0.5,
-    "fat": 10.0,
-    "saturated_fat": 4.0,
-    "fiber": 0.5,
-    "salt": 0.8,
-    "old_price": null,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-12",
-    "valid_until": "2026-07-18"
-  },
+  
   {
     "name": "Frutti di Mare",
     "brand": "ITALIAMO",
@@ -1261,27 +1238,7 @@
     "valid_from": "2026-07-12",
     "valid_until": "2026-07-18"
   },
-  {
-    "name": "Donuts Kakao Haselnuss",
-    "brand": "DUNKIN'",
-    "price": 2.59,
-    "supermarket": "Lidl",
-    "calories": 430,
-    "protein": 8.0,
-    "category": "Snacks",
-    "tags": [],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/f0a9d879-09b3-4296-931f-f2df99fc4608_0.jpg",
-    "carbs": 52.0,
-    "sugar": 42.0,
-    "fat": 21.0,
-    "saturated_fat": 9.0,
-    "fiber": 1.5,
-    "salt": 0.4,
-    "old_price": null,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-12",
-    "valid_until": "2026-07-18"
-  },
+ 
   {
     "name": "Nackenhörnchen",
     "brand": null,
@@ -3230,31 +3187,7 @@
     "valid_from": "2026-07-12",
     "valid_until": "2026-07-18"
   },
-  {
-    "name": "Veganes Knusperschnitzel-brötchen",
-    "brand": null,
-    "price": 2.5,
-    "supermarket": "Rewe",
-    "calories": 280,
-    "protein": 12.0,
-    "category": "Fleisch",
-    "tags": [
-      "High Protein",
-      "Vegan",
-      "Vegetarisch"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/96cf1b21-661d-4ec4-86e2-35feb5bff82e_0.jpg",
-    "carbs": 32.0,
-    "sugar": 2.0,
-    "fat": 12.0,
-    "saturated_fat": 2.0,
-    "fiber": 2.0,
-    "salt": 1.2,
-    "old_price": null,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-12",
-    "valid_until": "2026-07-18"
-  },
+
   {
     "name": "Vegane Pommersche",
     "brand": "Rügenwalder",
@@ -3354,30 +3287,7 @@
     "valid_from": "2026-07-12",
     "valid_until": "2026-07-18"
   },
-  {
-    "name": "Delikatess Geflügelsalat",
-    "brand": "Merl",
-    "price": 1.99,
-    "supermarket": "Rewe",
-    "calories": 185,
-    "protein": 12.0,
-    "category": "Fleisch",
-    "tags": [
-      "High Protein",
-      "Low Carb"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/12dfa78c-27d9-4e3e-9f4c-7c06ecf71663_0.jpg",
-    "carbs": 3.0,
-    "sugar": 1.0,
-    "fat": 14.0,
-    "saturated_fat": 2.5,
-    "fiber": 0.0,
-    "salt": 1.2,
-    "old_price": null,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-12",
-    "valid_until": "2026-07-18"
-  },
+
   {
     "name": "Remagen Frikadellen",
     "brand": null,
@@ -3426,53 +3336,8 @@
     "valid_from": "2026-07-12",
     "valid_until": "2026-07-18"
   },
-  {
-    "name": "Kapuziner",
-    "brand": null,
-    "price": 13.99,
-    "supermarket": "Rewe",
-    "calories": 334,
-    "protein": 12.0,
-    "category": "Milchprodukte",
-    "tags": [
-      "High Protein"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/0cd39c72-b8b5-4fdc-a079-9e64185a00ed_0.jpg",
-    "carbs": 48.0,
-    "sugar": 46.0,
-    "fat": 9.0,
-    "saturated_fat": 5.5,
-    "fiber": 0.0,
-    "salt": 0.1,
-    "old_price": null,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-12",
-    "valid_until": "2026-07-18"
-  },
-  {
-    "name": "Die jungen Frank’n",
-    "brand": null,
-    "price": 4.49,
-    "supermarket": "Rewe",
-    "calories": 280,
-    "protein": 12.0,
-    "category": "Fleisch",
-    "tags": [
-      "High Protein",
-      "Low Carb"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/d432f985-1b8f-4781-b45e-d51f4fba9577_0.jpg",
-    "carbs": 2.0,
-    "sugar": 1.0,
-    "fat": 24.0,
-    "saturated_fat": 10.0,
-    "fiber": 0.0,
-    "salt": 1.2,
-    "old_price": null,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-12",
-    "valid_until": "2026-07-18"
-  },
+ 
+  
   {
     "name": "Crispy Sticks",
     "brand": "Valess",
@@ -3816,50 +3681,7 @@
     "valid_from": "2026-07-12",
     "valid_until": "2026-07-18"
   },
-  {
-    "name": "Cafeteria fein & sahnig Mandel-Bienenstich",
-    "brand": "Coppenrath & Wiese",
-    "price": 3.49,
-    "supermarket": "Rewe",
-    "calories": 186,
-    "protein": 3.5,
-    "category": "Tiefkühl",
-    "tags": [],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/8e4a865c-0a3e-48fa-88c9-351c51b303ca_0.jpg",
-    "carbs": 22.0,
-    "sugar": 18.0,
-    "fat": 9.5,
-    "saturated_fat": 5.5,
-    "fiber": 0.5,
-    "salt": 0.1,
-    "old_price": null,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-12",
-    "valid_until": "2026-07-18"
-  },
-  {
-    "name": "Für meine Familie",
-    "brand": "Deli Reform",
-    "price": 1.19,
-    "supermarket": "Rewe",
-    "calories": 95,
-    "protein": 3.5,
-    "category": "Fleisch",
-    "tags": [
-      "Low Calories"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/80a745a8-7c9a-44e4-9bf3-c2b7df026e3c_0.jpg",
-    "carbs": 17.0,
-    "sugar": 13.0,
-    "fat": 1.5,
-    "saturated_fat": 0.5,
-    "fiber": 0.0,
-    "salt": 0.1,
-    "old_price": null,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-12",
-    "valid_until": "2026-07-18"
-  },
+ 
   {
     "name": "Goldmais",
     "brand": "Bonduelle",
@@ -4784,29 +4606,7 @@
     "valid_from": "2026-07-12",
     "valid_until": "2026-07-18"
   },
-  {
-    "name": "Lasagne-blätter",
-    "brand": null,
-    "price": 1.19,
-    "supermarket": "Aldi",
-    "calories": 371,
-    "protein": 13.0,
-    "category": "Beilagen",
-    "tags": [
-      "High Protein"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/8a2f778b-97a3-442c-9d0e-7fd881ab9002_0.jpg",
-    "carbs": 75.0,
-    "sugar": 1.0,
-    "fat": 1.5,
-    "saturated_fat": 0.3,
-    "fiber": 3.0,
-    "salt": 0.7,
-    "old_price": null,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-12",
-    "valid_until": "2026-07-18"
-  },
+
   {
     "name": "Conchiglie",
     "brand": null,
@@ -5316,51 +5116,7 @@
     "valid_from": "2026-07-12",
     "valid_until": "2026-07-18"
   },
-  {
-    "name": "Rosmarin",
-    "brand": null,
-    "price": 0.89,
-    "supermarket": "Aldi",
-    "calories": 331,
-    "protein": 3.3,
-    "category": "Obst & Gemüse",
-    "tags": [],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/777d5517-9b43-4b0c-8b41-084235e07c63_0.jpg",
-    "carbs": 69.3,
-    "sugar": 0.0,
-    "fat": 5.2,
-    "saturated_fat": 2.4,
-    "fiber": 37.0,
-    "salt": 0.2,
-    "old_price": null,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-12",
-    "valid_until": "2026-07-18"
-  },
-  {
-    "name": "Basilikum",
-    "brand": null,
-    "price": 1.99,
-    "supermarket": "Aldi",
-    "calories": 23,
-    "protein": 3.2,
-    "category": "Obst & Gemüse",
-    "tags": [
-      "Low Carb",
-      "Low Calories"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/b80fcfa5-c893-451c-8e2b-ca46410ab19f_0.jpg",
-    "carbs": 1.5,
-    "sugar": 0.3,
-    "fat": 0.6,
-    "saturated_fat": 0.1,
-    "fiber": 0.8,
-    "salt": 0.1,
-    "old_price": null,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-12",
-    "valid_until": "2026-07-18"
-  },
+ 
   {
     "name": "Spargelabschnitte",
     "brand": "ALL SEASONS",
@@ -6591,30 +6347,7 @@
     "valid_from": "2026-07-12",
     "valid_until": "2026-07-18"
   },
-  {
-    "name": "Basilikum",
-    "brand": "Galbani",
-    "price": 1.19,
-    "supermarket": "Edeka",
-    "calories": 98,
-    "protein": 6.5,
-    "category": "Obst & Gemüse",
-    "tags": [
-      "Low Carb",
-      "Low Calories"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/40b007e4-4144-4048-aead-cb030c2afa0d_0.jpg",
-    "carbs": 0.5,
-    "sugar": 0.3,
-    "fat": 7.5,
-    "saturated_fat": 4.8,
-    "fiber": 0.0,
-    "salt": 1.2,
-    "old_price": 1.99,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-12",
-    "valid_until": "2026-07-18"
-  },
+ 
   {
     "name": "SPITZEN-LANGKORN",
     "brand": "reis-fit",
