@@ -1,5 +1,30 @@
 [
   {
+  "name": "Clear Whey Eistee Kirsche",
+  "brand": "Max Balance",
+  "price": 1.29,
+  "supermarket": "Edeka",
+  "calories": 346,
+  "protein": 81.0,
+  "category": "Proteinshakes",
+  "tags": [
+    "High Protein",
+    "Low Carb",
+    "Low Calories"
+  ],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/max_balance_clear_whey.jpg",
+  "carbs": 3.3,
+  "sugar": 1.5,
+  "fat": 0.0,
+  "saturated_fat": 0.0,
+  "fiber": 0.0,
+  "salt": 0.05,
+  "old_price": 2.29,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-07-14",
+  "valid_until": "2026-07-20"
+},
+  {
     "name": "Grillmeister Hähnchen-Bruststeaks",
     "brand": null,
     "price": 4.99,
