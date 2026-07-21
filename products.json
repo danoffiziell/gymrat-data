@@ -5046,7 +5046,7 @@
     "brand": "ASIA GREEN GARDEN",
     "price": 1.99,
     "supermarket": "Aldi",
-    "calories": 111,
+    "calories": 120,
     "protein": 11.3,
     "category": "Obst & Gemüse",
     "tags": [
@@ -5059,7 +5059,7 @@
     "sugar": 1.8,
     "fat": 5.2,
     "saturated_fat": 0.8,
-    "fiber": 2.2,
+    "fiber": 5.0,
     "salt": 0.3,
     "old_price": null,
     "nutrition_source": "ai_estimate",
