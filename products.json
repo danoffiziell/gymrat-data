@@ -6861,5 +6861,26 @@
   "nutrition_source": "manual_research",
   "valid_from": "2026-07-26",
   "valid_until": "2026-08-01"
+},
+  {
+  "name": "White-Tiger-Garnelen XXL 540g",
+  "brand": "Golden Seafood",
+  "price": 7.99,
+  "supermarket": "Aldi",
+  "calories": 70,
+  "protein": 17.5,
+  "category": "Fisch",
+  "tags": ["High Protein", "Low Calories", "Low Carb"],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/garnelen-aldi.jpg",
+  "carbs": 0.5,
+  "sugar": 0.0,
+  "fat": 0.8,
+  "saturated_fat": 0.2,
+  "fiber": 0.0,
+  "salt": 0.6,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-07-26",
+  "valid_until": "2026-08-01"
 }
 ]
