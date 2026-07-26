@@ -6747,9 +6747,9 @@
     "valid_until": "2026-08-01"
   },
   {
-    "name": "Protein Coffee",
+    "name": "Protein Coffee 390g",
     "brand": "ALDI SPORTS",
-    "price": null,
+    "price": 10.35,
     "supermarket": "Aldi",
     "calories": 369,
     "protein": 72.7,
@@ -6773,7 +6773,7 @@
   {
     "name": "Huel Trinkmahlzeit",
     "brand": "Huel",
-    "price": null,
+    "price": 2.99,
     "supermarket": "Rewe",
     "calories": 80,
     "protein": 4.0,
@@ -6797,7 +6797,7 @@
   {
     "name": "Premium-High-Protein-Chips",
     "brand": "ALDI SPORTS",
-    "price": null,
+    "price": 1.79,
     "supermarket": "Aldi",
     "calories": 401,
     "protein": 41.0,
@@ -6820,7 +6820,7 @@
   {
     "name": "High-Protein-Sahne",
     "brand": "ALDI SPORTS",
-    "price": null,
+    "price": 8.49,
     "supermarket": "Aldi",
     "calories": 399,
     "protein": 76.1,
@@ -6840,5 +6840,26 @@
     "nutrition_source": "web_search",
     "valid_from": "2026-07-26",
     "valid_until": "2026-08-01"
-  }
+  },
+  {
+  "name": "High-Protein-Pulver Iced Matcha Latte",
+  "brand": "ALDI SPORTS",
+  "price": 8.49,
+  "supermarket": "Aldi",
+  "calories": 376,
+  "protein": 71.5,
+  "category": "Proteinshakes",
+  "tags": ["High Protein", "Low Carb"],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/matcha-latte-aldi.jpg",
+  "carbs": 8.5,
+  "sugar": 2.0,
+  "fat": 4.5,
+  "saturated_fat": 2.0,
+  "fiber": 1.0,
+  "salt": 0.8,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-07-26",
+  "valid_until": "2026-08-01"
+}
 ]
