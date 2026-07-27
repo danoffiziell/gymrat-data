@@ -1,5 +1,31 @@
 [
   {
+  "name": "High-Protein-Pudding XXL",
+  "brand": "Milsani",
+  "price": 1.49,
+  "supermarket": "Aldi",
+  "calories": 79,
+  "protein": 10.0,
+  "category": "Milchprodukte",
+  "tags": [
+    "High Protein",
+    "Low Calories",
+    "Low Carb"
+  ],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/milsani-pudding-xxl.jpg",
+  "carbs": 6.5,
+  "sugar": 4.0,
+  "fat": 1.5,
+  "saturated_fat": 0.8,
+  "fiber": 0.0,
+  "salt": 0.2,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-07-26",
+  "valid_until": "2026-08-01"
+},
+
+  {
     "name": "Maasdamer",
     "brand": "Milbona",
     "price": 1.59,
