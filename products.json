@@ -1,5 +1,26 @@
 [
   {
+  "name": "Proteinjoghurt",
+  "brand": "Milsani",
+  "price": 0.89,
+  "supermarket": "Aldi",
+  "calories": 71,
+  "protein": 10.0,
+  "category": "Milchprodukte",
+  "tags": ["High Protein", "Low Calories"],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/milsani-proteinjoghurt.jpg",
+  "carbs": 6.0,
+  "sugar": 4.0,
+  "fat": 0.55,
+  "saturated_fat": 0.3,
+  "fiber": 0.5,
+  "salt": 0.22,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-07-26",
+  "valid_until": "2026-08-01"
+},
+  {
   "name": "High Protein Skyr Drink",
   "brand": "Milsani",
   "price": 1.49,
