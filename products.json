@@ -1,11 +1,32 @@
 [
   {
+  "name": "High Protein Skyr Drink",
+  "brand": "Milsani",
+  "price": 1.49,
+  "supermarket": "Aldi",
+  "calories": 54
+  "protein": 8.4,
+  "category": "Milchprodukte",
+  "tags": ["High Protein", "Low Calories"],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/milsani-skyr-drink.jpg",
+  "carbs": 5.5,
+  "sugar": 4.5,
+  "fat": 0.1,
+  "saturated_fat": 0.1,
+  "fiber": 0.0,
+  "salt": 0.1,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-07-26",
+  "valid_until": "2026-08-01"
+},
+  {
   "name": "High-Protein-Pudding XXL",
   "brand": "Milsani",
   "price": 1.49,
   "supermarket": "Aldi",
-  "calories": 79,
-  "protein": 10.0,
+  "calories": 84,
+  "protein": 9.5,
   "category": "Milchprodukte",
   "tags": [
     "High Protein",
@@ -5708,29 +5729,31 @@
     "valid_from": "2026-07-26",
     "valid_until": "2026-08-01"
   },
-  {
-    "name": "Maracuja",
-    "brand": "Milsani",
-    "price": 0.79,
-    "supermarket": "Aldi",
-    "calories": 75,
-    "protein": 3.5,
-    "category": "Obst & Gemüse",
-    "tags": [
-      "Low Calories"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/06e0e01c-98cb-41a8-8714-bb41356f19a8_0.jpg",
-    "carbs": 14.0,
-    "sugar": 12.0,
-    "fat": 1.0,
-    "saturated_fat": 0.6,
-    "fiber": 0.0,
-    "salt": 0.1,
-    "old_price": null,
-    "nutrition_source": "ai_estimate",
-    "valid_from": "2026-07-26",
-    "valid_until": "2026-08-01"
-  },
+ {
+  "name": "Skyr Maracuja High Protein",
+  "brand": "Milsani",
+  "price": 0.79,
+  "supermarket": "Aldi",
+  "calories": 58,
+  "protein": 9.5,
+  "category": "Milchprodukte",
+  "tags": [
+    "High Protein",
+    "Low Calories",
+    "Low Carb"
+  ],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/06e0e01c-98cb-41a8-8714-bb41356f19a8_0.jpg",
+  "carbs": 4.9,
+  "sugar": 3.5,
+  "fat": 0.5,
+  "saturated_fat": 0.2,
+  "fiber": 0.0,
+  "salt": 0.1,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-07-26",
+  "valid_until": "2026-08-01"
+}
   {
     "name": "CroFranz",
     "brand": "MEIN BESTES",
