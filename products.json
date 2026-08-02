@@ -1,5 +1,26 @@
 [
   {
+  "name": "Döner Croissant",
+  "brand": "Lidl",
+  "price": 7.99,
+  "supermarket": "Lidl",
+  "calories": 288,
+  "protein": 8.4,
+  "category": "Snacks",
+  "tags": [],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/doener-croissant-lidl.jpg",
+  "carbs": 14.6,
+  "sugar": 4.4,
+  "fat": 21.6,
+  "saturated_fat": 4.9,
+  "fiber": 0.9,
+  "salt": 1.41,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-08-02",
+  "valid_until": "2026-08-08"
+},
+  {
     "name": "Saftschinken",
     "brand": "Herta",
     "price": 1.99,
