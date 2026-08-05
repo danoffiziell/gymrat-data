@@ -84,8 +84,8 @@
     "valid_until": "2026-08-08"
   },
   {
-    "name": "High Protein Drink",
-    "brand": "YoPro",
+    "name": "Yopro High Protein Drink",
+    "brand": "Danone",
     "price": 1.11,
     "supermarket": "Rewe",
     "calories": 60,
@@ -1642,31 +1642,31 @@
     "valid_from": "2026-08-02",
     "valid_until": "2026-08-08"
   },
-  {
-    "name": "Hähnchen Filetstreifen",
-    "brand": "Matthews",
-    "price": 2.29,
-    "supermarket": "Rewe",
-    "calories": 124,
-    "protein": 23.0,
-    "category": "Fleisch",
-    "tags": [
-      "High Protein",
-      "Low Carb",
-      "Low Calories"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/ca2736a4-90e4-4a4b-87b4-2b9cd98ee788_0.jpg",
-    "carbs": 0.0,
-    "sugar": 0.0,
-    "fat": 3.5,
-    "saturated_fat": 1.0,
-    "fiber": 0.0,
-    "salt": 0.8,
-    "old_price": null,
-    "nutrition_source": "ai_estimate_reviewed",
-    "valid_from": "2026-08-02",
-    "valid_until": "2026-08-08"
-  },
+ {
+  "name": "Hähnchen Filetstreifen",
+  "brand": "Matthews",
+  "price": 2.29,
+  "supermarket": "Rewe",
+  "calories": 153,
+  "protein": 25.0,
+  "category": "Fleisch",
+  "tags": [
+    "High Protein",
+    "Low Carb",
+    "Low Calories"
+  ],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/ca2736a4-90e4-4a4b-87b4-2b9cd98ee788_0.jpg",
+  "carbs": 2.0,
+  "sugar": 0.8,
+  "fat": 5.0,
+  "saturated_fat": 1.0,
+  "fiber": 0.0,
+  "salt": 0.8,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-08-02",
+  "valid_until": "2026-08-08"
+},
   {
     "name": "Hähnchenbrust Filetstücke",
     "brand": "Matthews",
@@ -1933,30 +1933,31 @@
     "valid_from": "2026-08-02",
     "valid_until": "2026-08-08"
   },
-  {
-    "name": "Simmentaler Jungbullen Steakhüfte",
-    "brand": null,
-    "price": 2.49,
-    "supermarket": "Rewe",
-    "calories": 161,
-    "protein": 21.0,
-    "category": "Fleisch",
-    "tags": [
-      "High Protein",
-      "Low Carb"
-    ],
-    "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/2f4ed754-642d-46a3-a7a1-d56400db9358_0.jpg",
-    "carbs": 0.0,
-    "sugar": 0.0,
-    "fat": 8.5,
-    "saturated_fat": 3.5,
-    "fiber": 0.0,
-    "salt": 0.1,
-    "old_price": null,
-    "nutrition_source": "standard_reference",
-    "valid_from": "2026-08-02",
-    "valid_until": "2026-08-08"
-  },
+ {
+  "name": "Simmentaler Jungbullen Steakhüfte",
+  "brand": null,
+  "price": 2.49,
+  "supermarket": "Rewe",
+  "calories": 115,
+  "protein": 22.0,
+  "category": "Fleisch",
+  "tags": [
+    "High Protein",
+    "Low Carb",
+    "Low Calories"
+  ],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/2f4ed754-642d-46a3-a7a1-d56400db9358_0.jpg",
+  "carbs": 0.0,
+  "sugar": 0.0,
+  "fat": 2.5,
+  "saturated_fat": 1.0,
+  "fiber": 0.0,
+  "salt": 0.1,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-08-02",
+  "valid_until": "2026-08-08"
+},
   {
     "name": "Hähnchenbrustfilet natur",
     "brand": null,
