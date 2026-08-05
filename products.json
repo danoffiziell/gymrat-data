@@ -1,5 +1,30 @@
 [
   {
+  "name": "Skyr Energy Drink",
+  "brand": "Lidl",
+  "price": 1.49,
+  "supermarket": "Lidl",
+  "calories": 49,
+  "protein": 8.0,
+  "category": "Milchprodukte",
+  "tags": [
+    "High Protein",
+    "Low Calories",
+    "Low Carb"
+  ],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/skyr-energy-lidl.jpg",
+  "carbs": 2.7,
+  "sugar": 2.4,
+  "fat": 0.4,
+  "saturated_fat": 0.3,
+  "fiber": 0.0,
+  "salt": 0.13,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-08-02",
+  "valid_until": "2026-08-08"
+},
+  {
   "name": "Döner Croissant",
   "brand": "Lidl",
   "price": 7.99,
