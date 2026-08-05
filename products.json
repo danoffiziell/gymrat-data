@@ -1642,12 +1642,12 @@
     "valid_from": "2026-08-02",
     "valid_until": "2026-08-08"
   },
- {
+{
   "name": "Hähnchen Filetstreifen",
   "brand": "Matthews",
   "price": 2.29,
   "supermarket": "Rewe",
-  "calories": 153,
+  "calories": 136,
   "protein": 25.0,
   "category": "Fleisch",
   "tags": [
@@ -1656,9 +1656,9 @@
     "Low Calories"
   ],
   "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/ca2736a4-90e4-4a4b-87b4-2b9cd98ee788_0.jpg",
-  "carbs": 2.0,
+  "carbs": 3.0,
   "sugar": 0.8,
-  "fat": 5.0,
+  "fat": 4.0,
   "saturated_fat": 1.0,
   "fiber": 0.0,
   "salt": 0.8,
