@@ -5094,7 +5094,7 @@
   },
   {
     "name": "Cherry Romatomaten",
-    "brand": REWE,
+    "brand": "REWE",
     "price": 0.79,
     "supermarket": "Rewe",
     "calories": 15,
@@ -5171,8 +5171,8 @@
   },
   {
     "name": "Zwetschgen",
-    "brand": 1.29,
-    "price": null,
+    "brand": "Aldi",
+    "price": 1.29,
     "supermarket": "Aldi",
     "calories": 43,
     "protein": 1.0,
