@@ -2660,8 +2660,8 @@
     "brand": "REWE Bio",
     "price": 0.99,
     "supermarket": "Rewe",
-    "calories": 280,
-    "protein": 28.0,
+    "calories": 243,
+    "protein": 18.0,
     "category": "Milchprodukte",
     "tags": [
       "High Protein",
@@ -4827,8 +4827,8 @@
     "brand": "live fresh",
     "price": 1.99,
     "supermarket": "Rewe",
-    "calories": 65,
-    "protein": 10.0,
+    "calories": 82,
+    "protein": 12.0,
     "category": "Milchprodukte",
     "tags": [
       "High Protein",
