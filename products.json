@@ -5212,7 +5212,7 @@
     "brand": null,
     "price": 1.49,
     "supermarket": "Rewe",
-    "calories": 109,
+    "calories": 130,
     "protein": 18.5,
     "category": "Fleisch",
     "tags": [
@@ -5407,8 +5407,8 @@
     "brand": null,
     "price": 1.22,
     "supermarket": "Rewe",
-    "calories": 110,
-    "protein": 16.0,
+    "calories": 116,
+    "protein": 24.0,
     "category": "Fleisch",
     "tags": [
       "High Protein",
@@ -5837,8 +5837,8 @@
     "brand": "Alpro",
     "price": 1.19,
     "supermarket": "Rewe",
-    "calories": 105,
-    "protein": 12.0,
+    "calories": 82,
+    "protein": 7.5,
     "category": "Milchprodukte",
     "tags": [
       "High Protein",
