@@ -1469,7 +1469,7 @@
       "Low Carb",
       "Low Calories",
       "Vegan",
-      "Vegetarisch"
+      "Vegetarisch", "High Protein"
     ],
     "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/d4691aa8-4ade-447f-8133-dcbbbd7f0ac1_0.jpg",
     "carbs": 2.0,
@@ -1609,7 +1609,7 @@
   {
     "name": "Süßkartoffeln, lose",
     "brand": null,
-    "price": 1.69,
+    "price": 1.49,
     "supermarket": "Lidl",
     "calories": 86,
     "protein": 1.6,
