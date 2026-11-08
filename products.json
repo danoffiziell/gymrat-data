@@ -5097,8 +5097,9 @@
     "salt": 2.2,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Französischer Landkäse",
@@ -5122,8 +5123,9 @@
     "salt": 1.8,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Lammfilets XXL",
@@ -5146,8 +5148,9 @@
     "salt": 0.1,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-18"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-18",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Nackenbraten XXL",
@@ -5170,8 +5173,9 @@
     "salt": 0.15,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Rinderhackfleisch XXL",
@@ -5194,8 +5198,9 @@
     "salt": 0.1,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Hähnchensuppenfleisch",
@@ -5219,8 +5224,9 @@
     "salt": 0.8,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Schweinefilet",
@@ -5244,8 +5250,9 @@
     "salt": 0.1,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Grillhaxe",
@@ -5268,8 +5275,9 @@
     "salt": 1.2,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Die Ofenfrische Thunfisch",
@@ -5293,8 +5301,9 @@
     "salt": 0.8,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Lachsfiletportion",
@@ -5317,8 +5326,9 @@
     "salt": 0.7,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Lachsforelle",
@@ -5341,8 +5351,9 @@
     "salt": 0.2,
     "old_price": null,
     "nutrition_source": "off_high",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Chicken-Box XXL",
@@ -5364,8 +5375,9 @@
     "salt": 1.8,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Hähnchenpfanne „Alfredo“",
@@ -5388,8 +5400,9 @@
     "salt": 0.8,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-18"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-18",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Käsefondue",
@@ -5412,8 +5425,9 @@
     "salt": 1.2,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Gefüllte Hähnchentasche",
@@ -5436,8 +5450,9 @@
     "salt": 0.8,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Panierte Hähnchenbrustfiletstreifen",
@@ -5460,8 +5475,9 @@
     "salt": 0.6,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-18"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-18",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Eisbein- / Haxenfleisch",
@@ -5484,8 +5500,9 @@
     "salt": 0.8,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Schweineschnitte Alpen-Cordon-bleu-Art XXL",
@@ -5508,8 +5525,9 @@
     "salt": 0.8,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-18"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-18",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Gulasch",
@@ -5533,8 +5551,9 @@
     "salt": 0.8,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Riesen-Schnitzel",
@@ -5557,8 +5576,9 @@
     "salt": 0.8,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Hirtenkäse in Würfeln",
@@ -5581,8 +5601,9 @@
     "salt": 1.2,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-18"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-18",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Schnitzel paniert",
@@ -5604,8 +5625,9 @@
     "salt": 0.6,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-18"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-18",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Mini-Haxen",
@@ -5627,8 +5649,9 @@
     "salt": 1.2,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Fleischklößchen",
@@ -5651,8 +5674,9 @@
     "salt": 0.8,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-18"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-18",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Gebrannte Jahrmarktsnüsse",
@@ -5674,8 +5698,9 @@
     "salt": 0.3,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Obazda",
@@ -5698,8 +5723,9 @@
     "salt": 1.2,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Picco Belli XXL",
@@ -5721,8 +5747,9 @@
     "salt": 0.8,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-18"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-18",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Grünkohl",
@@ -5745,8 +5772,9 @@
     "salt": 0.1,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Haltbare Landmilch",
@@ -5769,8 +5797,9 @@
     "salt": 0.1,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Rosenkohl",
@@ -5793,8 +5822,9 @@
     "salt": 0.0,
     "old_price": null,
     "nutrition_source": "off_high",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Speisekartoffeln",
@@ -5816,8 +5846,9 @@
     "salt": 0.0,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Back- & Grillkartoffeln",
@@ -5839,8 +5870,9 @@
     "salt": 0.1,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Süßkartoffelrösti",
@@ -5862,8 +5894,9 @@
     "salt": 0.4,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Mandeldrink",
@@ -5886,8 +5919,9 @@
     "salt": 0.1,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Bananen, Fairtrade",
@@ -5910,8 +5944,9 @@
     "salt": 0.0,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Speisemöhren",
@@ -5935,8 +5970,9 @@
     "salt": 0.1,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Cherrydatteltomaten",
@@ -5959,8 +5995,9 @@
     "salt": 0.1,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Kiwi grün",
@@ -5982,8 +6019,9 @@
     "salt": 0.0,
     "old_price": null,
     "nutrition_source": "off_high",
-    "valid_from": "2026-11-09",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-09"
   },
   {
     "name": "Gurke",
@@ -6007,8 +6045,9 @@
     "salt": 0.0,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-14"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-14",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Ingwer-Shots",
@@ -6031,8 +6070,9 @@
     "salt": 0.1,
     "old_price": null,
     "nutrition_source": "ai_estimate",
-    "valid_from": "2026-11-12",
-    "valid_until": "2026-11-18"
+    "valid_from": "2026-11-08",
+    "valid_until": "2026-11-18",
+    "offer_valid_from": "2026-11-12"
   },
   {
     "name": "Veganer Aufschnitt",
