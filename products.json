@@ -1,5 +1,52 @@
 [
   {
+  "name": "Beanz",
+  "brand": "Heinz",
+  "price": 1.29,
+  "supermarket": "Lidl",
+  "calories": 81,
+  "protein": 4.7,
+  "category": "Obst & Gemüse",
+  "tags": [
+    "Low Calories"
+  ],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/heinz-beanz.jpg",
+  "carbs": 12.9,
+  "sugar": 5.0,
+  "fat": 0.2,
+  "saturated_fat": 0.1,
+  "fiber": 3.7,
+  "salt": 0.6,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-11-08",
+  "valid_until": "2026-11-14"
+},
+{
+  "name": "Premium-Gemüse",
+  "brand": "Freshona",
+  "price": 1.89,
+  "supermarket": "Lidl",
+  "calories": 33,
+  "protein": 2.7,
+  "category": "Obst & Gemüse",
+  "tags": [
+    "Low Carb",
+    "Low Calories"
+  ],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/freshona-premium-gemuese.jpg",
+  "carbs": 3.6,
+  "sugar": 1.9,
+  "fat": 0.4,
+  "saturated_fat": 0.1,
+  "fiber": 2.9,
+  "salt": 0.05,
+  "old_price": 3.59,
+  "nutrition_source": "ai_estimate",
+  "valid_from": "2026-11-08",
+  "valid_until": "2026-11-14"
+},
+  {
     "name": "Jamón Serrano Gran Reserva",
     "brand": "DELUXE",
     "price": 1.69,
