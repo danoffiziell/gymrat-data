@@ -1,5 +1,54 @@
 [
   {
+  "name": "Finesse",
+  "brand": "Herta",
+  "price": 1.39,
+  "supermarket": "Aldi",
+  "calories": 101,
+  "protein": 20.0,
+  "category": "Fleisch",
+  "tags": [
+    "High Protein",
+    "Low Carb",
+    "Low Calories"
+  ],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/herta-finesse.jpg",
+  "carbs": 1.0,
+  "sugar": 1.0,
+  "fat": 1.9,
+  "saturated_fat": 0.8,
+  "fiber": 0.0,
+  "salt": 2.3,
+  "old_price": 2.59,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-11-09",
+  "valid_until": "2026-11-14"
+},
+{
+  "name": "Schwarzwälder Schinken XXL",
+  "brand": "GUT DREI EICHEN",
+  "price": 2.49,
+  "supermarket": "Aldi",
+  "calories": 208,
+  "protein": 24.0,
+  "category": "Fleisch",
+  "tags": [
+    "High Protein",
+    "Low Carb"
+  ],
+  "image_url": "https://sage-paprenjak-ea3f46.netlify.app/images/gut-drei-eichen-schwarzwaelder-schinken-xxl.jpg",
+  "carbs": 1.0,
+  "sugar": 1.0,
+  "fat": 12.0,
+  "saturated_fat": 4.5,
+  "fiber": 0.0,
+  "salt": 5.0,
+  "old_price": null,
+  "nutrition_source": "manual_research",
+  "valid_from": "2026-11-09",
+  "valid_until": "2026-11-14"
+},
+  {
   "name": "Beanz",
   "brand": "Heinz",
   "price": 1.29,
